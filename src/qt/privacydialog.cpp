@@ -14,7 +14,7 @@
 #include "sendcoinsentry.h"
 #include "walletmodel.h"
 #include "coincontrol.h"
-#include "zenxcontroldialog.h"
+#include "zdxdcontroldialog.h"
 #include "spork.h"
 
 #include <QClipboard>
@@ -447,7 +447,7 @@ void PrivacyDialog::sendzENX()
         return;
     }
 
-    // Clear zenx selector in case it was used
+    // Clear zdxd selector in case it was used
     ZEnxControlDialog::listSelectedMints.clear();
 
     // Some statistics for entertainment

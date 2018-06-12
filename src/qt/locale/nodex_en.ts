@@ -5666,7 +5666,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
 <context>
     <name>ZEnxControlDialog</name>
     <message>
-        <location filename="../forms/zenxcontroldialog.ui" line="+20"/>
+        <location filename="../forms/zdxdcontroldialog.ui" line="+20"/>
         <source>Select zEnx to Spend</source>
         <translation type="unfinished"></translation>
     </message>

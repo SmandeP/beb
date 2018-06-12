@@ -1610,10 +1610,10 @@ Value walletpassphrase(const Array& params, bool fHelp)
             "time that overrides the old one. A timeout of \"0\" unlocks until the wallet is closed.\n"
             "\nExamples:\n"
             "\nUnlock the wallet for 60 seconds\n" +
-            HelpExampleCli("walletpassphrase", "\"my pass enxase\" 60") +
-            "\nUnlock the wallet for 60 seconds but allow Obfuscation only\n" + HelpExampleCli("walletpassphrase", "\"my pass enxase\" 60 true") +
+            HelpExampleCli("walletpassphrase", "\"my pass dxdase\" 60") +
+            "\nUnlock the wallet for 60 seconds but allow Obfuscation only\n" + HelpExampleCli("walletpassphrase", "\"my pass dxdase\" 60 true") +
             "\nLock the wallet again (before 60 seconds)\n" + HelpExampleCli("walletlock", "") +
-            "\nAs json rpc call\n" + HelpExampleRpc("walletpassphrase", "\"my pass enxase\", 60"));
+            "\nAs json rpc call\n" + HelpExampleRpc("walletpassphrase", "\"my pass dxdase\", 60"));
 
     if (fHelp)
         return true;
@@ -1701,7 +1701,7 @@ Value walletlock(const Array& params, bool fHelp)
             "before being able to call any methods which require the wallet to be unlocked.\n"
             "\nExamples:\n"
             "\nSet the passphrase for 2 minutes to perform a transaction\n" +
-            HelpExampleCli("walletpassphrase", "\"my pass enxase\" 120") +
+            HelpExampleCli("walletpassphrase", "\"my pass dxdase\" 120") +
             "\nPerform a send (requires passphrase set)\n" + HelpExampleCli("sendtoaddress", "\"XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg\" 1.0") +
             "\nClear the passphrase since we are done before 2 minutes is up\n" + HelpExampleCli("walletlock", "") +
             "\nAs json rpc call\n" + HelpExampleRpc("walletlock", ""));
@@ -1733,14 +1733,14 @@ Value encryptwallet(const Array& params, bool fHelp)
             "If the wallet is already encrypted, use the walletpassphrasechange call.\n"
             "Note that this will shutdown the server.\n"
             "\nArguments:\n"
-            "1. \"passphrase\"    (string) The pass enxase to encrypt the wallet with. It must be at least 1 character, but should be long.\n"
+            "1. \"passphrase\"    (string) The pass dxdase to encrypt the wallet with. It must be at least 1 character, but should be long.\n"
             "\nExamples:\n"
             "\nEncrypt you wallet\n" +
-            HelpExampleCli("encryptwallet", "\"my pass enxase\"") +
-            "\nNow set the passphrase to use the wallet, such as for signing or sending ENXs\n" + HelpExampleCli("walletpassphrase", "\"my pass enxase\"") +
+            HelpExampleCli("encryptwallet", "\"my pass dxdase\"") +
+            "\nNow set the passphrase to use the wallet, such as for signing or sending ENXs\n" + HelpExampleCli("walletpassphrase", "\"my pass dxdase\"") +
             "\nNow we can so something like sign\n" + HelpExampleCli("signmessage", "\"nodexaddress\" \"test message\"") +
             "\nNow lock the wallet again by removing the passphrase\n" + HelpExampleCli("walletlock", "") +
-            "\nAs a json rpc call\n" + HelpExampleRpc("encryptwallet", "\"my pass enxase\""));
+            "\nAs a json rpc call\n" + HelpExampleRpc("encryptwallet", "\"my pass dxdase\""));
 
     if (fHelp)
         return true;

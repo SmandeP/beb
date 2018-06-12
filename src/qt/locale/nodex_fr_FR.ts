@@ -109,15 +109,15 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Enter passphrase</source>
-        <translation>Entrer la enxase secrète</translation>
+        <translation>Entrer la dxdase secrète</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Nouvelle enxase secrète</translation>
+        <translation>Nouvelle dxdase secrète</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Confirmer la nouvelle enxase secrète</translation>
+        <translation>Confirmer la nouvelle dxdase secrète</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
@@ -125,7 +125,7 @@
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Cette opération requiert votre enxase secrète pour déverrouiller votre portefeuille.</translation>
+        <translation>Cette opération requiert votre dxdase secrète pour déverrouiller votre portefeuille.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -133,7 +133,7 @@
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Cette opération nécessite votre enxase secrète de portefeuille pour décrypter le portefeuille </translation>
+        <translation>Cette opération nécessite votre dxdase secrète de portefeuille pour décrypter le portefeuille </translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
@@ -141,11 +141,11 @@
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>Changer la enxase secrète</translation>
+        <translation>Changer la dxdase secrète</translation>
     </message>
     <message>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Entrer l'ancienne et la nouvelle enxase secrète dans le portefeuille</translation>
+        <translation>Entrer l'ancienne et la nouvelle dxdase secrète dans le portefeuille</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
@@ -161,7 +161,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ENX&lt;/b&gt;!</source>
-        <translation>Attention : si vous cryptez votre portefeuille et perdez votre enxase secrète, vous &lt;b&gt;PERDREZ TOUS VOS ENX&lt;/b&gt;!</translation>
+        <translation>Attention : si vous cryptez votre portefeuille et perdez votre dxdase secrète, vous &lt;b&gt;PERDREZ TOUS VOS ENX&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -177,7 +177,7 @@
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>Les enxases secrètes fournies ne correspondent pas.</translation>
+        <translation>Les dxdases secrètes fournies ne correspondent pas.</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
@@ -185,7 +185,7 @@
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>La enxase secrète entrée pour le décryptage de votre portefeuille était incorrecte.</translation>
+        <translation>La dxdase secrète entrée pour le décryptage de votre portefeuille était incorrecte.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
@@ -193,7 +193,7 @@
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>La enxase secrète de votre portefeuille a été changée avec succès.</translation>
+        <translation>La dxdase secrète de votre portefeuille a été changée avec succès.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
@@ -212,7 +212,7 @@
     </message>
     <message>
         <source>Enter a Nodex Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Entrez une adresse Nodex que vous voulez crypter en utilisant BIP 38. Entrez une enxase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
+        <translation>Entrez une adresse Nodex que vous voulez crypter en utilisant BIP 38. Entrez une dxdase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
     </message>
     <message>
         <source>Address:</source>
@@ -296,7 +296,7 @@
     </message>
     <message>
         <source>The entered passphrase is invalid. </source>
-        <translation>La enxase secrète entrée est incorrect.</translation>
+        <translation>La dxdase secrète entrée est incorrect.</translation>
     </message>
     <message>
         <source>Allowed: 0-9,a-z,A-Z,</source>
@@ -328,7 +328,7 @@
     </message>
     <message>
         <source>Please check the key and passphrase and try again.</source>
-        <translation>Veuillez vérifier la clé et la enxase secrète et réessayer.</translation>
+        <translation>Veuillez vérifier la clé et la dxdase secrète et réessayer.</translation>
     </message>
     <message>
         <source>Data Not Valid.</source>
@@ -423,11 +423,11 @@
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>Changer la enxase de sécurité...</translation>
+        <translation>Changer la dxdase de sécurité...</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Changer la enxase secrète utilisée pour l'encryptage du portefeuille</translation>
+        <translation>Changer la dxdase secrète utilisée pour l'encryptage du portefeuille</translation>
     </message>
     <message>
         <source>&amp;Unlock Wallet...</source>
@@ -563,7 +563,7 @@
     </message>
     <message>
         <source>Encrypt and decrypt private keys using a passphrase</source>
-        <translation>Crypter et décrypter les clés privées en utilisant une enxase secrète</translation>
+        <translation>Crypter et décrypter les clés privées en utilisant une dxdase secrète</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>

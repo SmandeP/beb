@@ -2,8 +2,8 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "zenxcontroldialog.h"
-#include "ui_zenxcontroldialog.h"
+#include "zdxdcontroldialog.h"
+#include "ui_zdxdcontroldialog.h"
 
 #include "main.h"
 #include "walletmodel.h"

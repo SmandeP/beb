@@ -5731,7 +5731,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Nodex Alert&quot; admin@foo.co
     </message>
 </context>
 <context>
-    <name>zenxcontroldialog</name>
+    <name>zdxdcontroldialog</name>
     <message>
         <source>Select zEnx to Spend</source>
         <translation>送金したいzENXを選択</translation>
