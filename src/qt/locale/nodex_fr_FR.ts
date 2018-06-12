@@ -152,16 +152,16 @@
         <translation>Confirmer le cryptage du portefeuille</translation>
     </message>
     <message>
-        <source>Nodex will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ENXs from being stolen by malware infecting your computer.</source>
-        <translation>Nodex va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos ENXs d'un vol par un malware ayant infecté votre ordinateur. </translation>
+        <source>Nodex will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DXDs from being stolen by malware infecting your computer.</source>
+        <translation>Nodex va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos DXDs d'un vol par un malware ayant infecté votre ordinateur. </translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Êtes-vous sûr de vouloir crypter votre portefeuille?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ENX&lt;/b&gt;!</source>
-        <translation>Attention : si vous cryptez votre portefeuille et perdez votre dxdase secrète, vous &lt;b&gt;PERDREZ TOUS VOS ENX&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DXD&lt;/b&gt;!</source>
+        <translation>Attention : si vous cryptez votre portefeuille et perdez votre dxdase secrète, vous &lt;b&gt;PERDREZ TOUS VOS DXD&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -240,7 +240,7 @@
     </message>
     <message>
         <source>Passphrase: </source>
-        <translation>Enxase secrète :</translation>
+        <translation>Dxdase secrète :</translation>
     </message>
     <message>
         <source>Encrypted Key:</source>
@@ -1038,32 +1038,32 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Veuillez sélectionner un niveau de confidentialité.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 ENX</source>
-        <translation>Utiliser 2 masternodes différentes pour mélanger les fonds jusqu'a 10000 ENX</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 DXD</source>
+        <translation>Utiliser 2 masternodes différentes pour mélanger les fonds jusqu'a 10000 DXD</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 ENX</source>
-        <translation>Utiliser 8 masternodes différentes pour mélanger les fonds jusqu'a 10000 ENX</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 DXD</source>
+        <translation>Utiliser 8 masternodes différentes pour mélanger les fonds jusqu'a 10000 DXD</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Utiliser 16 masternodes différentes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 ENX to anonymize 10000 ENX</source>
-        <translation>Cette option est la plus rapide, et coutera ~0.025 ENX pour anonymiser 10000 ENX</translation>
+        <source>This option is the quickest and will cost about ~0.025 DXD to anonymize 10000 DXD</source>
+        <translation>Cette option est la plus rapide, et coutera ~0.025 DXD pour anonymiser 10000 DXD</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 ENX to anonymize 10000 ENX</source>
-        <translation>Cette option est moyennement rapide, et coutera 0.05 ENX pour anonymiser 10000 ENX</translation>
+        <source>This option is moderately fast and will cost about 0.05 DXD to anonymize 10000 DXD</source>
+        <translation>Cette option est moyennement rapide, et coutera 0.05 DXD pour anonymiser 10000 DXD</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Il s'agit de l'option la plus lente est la plus sécurisé. Utiliser l'anonymat maximum coutera</translation>
     </message>
     <message>
-        <source>0.1 ENX per 10000 ENX you anonymize.</source>
-        <translation>0.1 ENX par 10000 ENX vous anonymisez.</translation>
+        <source>0.1 DXD per 10000 DXD you anonymize.</source>
+        <translation>0.1 DXD par 10000 DXD vous anonymisez.</translation>
     </message>
     </context>
 <context>
@@ -1433,8 +1433,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Après commission</translation>
     </message>
     <message>
-        <source>0 ENX</source>
-        <translation>0 ENX</translation>
+        <source>0 DXD</source>
+        <translation>0 DXD</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -1801,7 +1801,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     </context>
 <context>
-    <name>ZEnxControlDialog</name>
+    <name>ZDxdControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>
