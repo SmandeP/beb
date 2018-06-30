@@ -1,4 +1,4 @@
-Nodex Core integration/staging repository
+Chronos Core integration/staging repository
 =====================================
 
 WHAT IS NODE-X?
@@ -13,19 +13,19 @@ https://bitcointalk.org/index.php?topic=4458008
 ## Coin Specs ##
 <table>
 <tr><td>Algo</td><td>Quark</td></tr>
-<tr><td>Ticker</td><td>DXD</td></tr>
+<tr><td>Ticker</td><td>CHN</td></tr>
 <tr><td>Block Time</td><td>60 Seconds</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
 <tr><td>PORT</td><td>11220</td></tr>
 <tr><td>RPCPORT</td><td>11221</td></tr>
-<tr><td>MN COLLATERAL</td><td>10000 DXD</td></tr>
+<tr><td>MN COLLATERAL</td><td>10000 CHN</td></tr>
 </table>
 
 ## PoS Rewards Breakdown ##
 
 <table>
 <th>Block Height</th><th>Reward</th><th>Masternodes</th><th>Stakers</th>
-<tr><td><= 540,000</td><td>25 DXD</td><td>18.75 DXD</td><td>6.25 DXD</td></tr>
-<tr><td>540,001-850,920</td><td>10 DXD</td><td>7.5 DXD</td><td>5.25 DXD</td></tr>
-<tr><td>850,921-1,562,398</td><td>5 DXD</td><td>3.75 DXD</td><td>1.25 DXD</td></tr>
+<tr><td><= 540,000</td><td>25 CHN</td><td>18.75 CHN</td><td>6.25 CHN</td></tr>
+<tr><td>540,001-850,920</td><td>10 CHN</td><td>7.5 CHN</td><td>5.25 CHN</td></tr>
+<tr><td>850,921-1,562,398</td><td>5 CHN</td><td>3.75 CHN</td><td>1.25 CHN</td></tr>
 </table>

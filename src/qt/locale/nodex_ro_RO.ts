@@ -183,9 +183,9 @@
     </message>
     </context>
 <context>
-    <name>ZDxdControlDialog</name>
+    <name>ZChnControlDialog</name>
     </context>
 <context>
-    <name>nodex-core</name>
+    <name>chronos-core</name>
     </context>
 </TS>

@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash Core developers, 2015-@COPYRIGHT_YEAR@ The Nodex Core developers</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash Core developers, 2015-@COPYRIGHT_YEAR@ The Chronos Core developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@</string>
@@ -29,10 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Nodex-Qt</string>
+  <string>Chronos-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>io.nodex.Nodex-Qt</string>
+  <string>io.chronos.Chronos-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -40,10 +40,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.nodex.NodexPayment</string>
+      <string>io.chronos.ChronosPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>nodex</string>
+        <string>chronos</string>
       </array>
     </dict>
   </array>
@@ -52,9 +52,9 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>io.nodex.paymentrequest</string>
+      <string>io.chronos.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Nodex payment request</string>
+      <string>Chronos payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -62,10 +62,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-nodex-payment-request</string>
+        <string>application/x-chronos-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>nodexpaymentrequest</string>
+          <string>chronospaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -78,7 +78,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>io.nodex.paymentrequest</string>
+        <string>io.chronos.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

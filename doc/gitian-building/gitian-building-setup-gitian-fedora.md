@@ -75,13 +75,13 @@ cd ..
 
 **Note**: When sudo asks for a password, enter the password for the user `gitianuser` not for `root`.
 
-Clone the git repositories for nodex and Gitian.
+Clone the git repositories for chronos and Gitian.
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
-git clone https://github.com/nodex/nodex
-git clone https://github.com/nodexproject/gitian.sigs.git
-git clone https://github.com/nodexproject/nodex-detached-sigs.git
+git clone https://github.com/chronos/chronos
+git clone https://github.com/chronosproject/gitian.sigs.git
+git clone https://github.com/chronosproject/chronos-detached-sigs.git
 ```
 
 Setting up the Gitian image

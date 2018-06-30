@@ -66,15 +66,15 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += nodexd
+  bin_PROGRAMS += chronosd
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += nodex-cli nodex-tx
+  bin_PROGRAMS += chronos-cli chronos-tx
 endif
 
 .PHONY: FORCE
-# nodex core #
+# chronos core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   accumulators.h \
@@ -190,7 +190,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between nodexd and nodex-qt
+# server: shared between chronosd and chronos-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -236,7 +236,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between nodexd and nodex-qt, but only linked
+# wallet: shared between chronosd and chronos-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -332,7 +332,7 @@ libzerocoin_libbitcoin_zerocoin_a_SOURCES = \
   libzerocoin/Params.cpp \
   libzerocoin/SerialNumberSignatureOfKnowledge.cpp
 
-# common: shared between nodexd, and nodex-qt and non-server tools
+# common: shared between chronosd, and chronos-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   accumulators.cpp \
@@ -392,7 +392,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between nodex-cli and nodex-qt
+# cli: shared between chronos-cli and chronos-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -402,7 +402,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-nodexd_LDADD = \
+chronosd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -414,26 +414,26 @@ nodexd_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-nodexd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+chronosd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-nodexd_LDADD += libbitcoin_wallet.a
+chronosd_LDADD += libbitcoin_wallet.a
 endif
-nodexd_SOURCES = nodexd.cpp
+chronosd_SOURCES = chronosd.cpp
 #
 
 if TARGET_WINDOWS
-nodexd_SOURCES += nodexd-res.rc
+chronosd_SOURCES += chronosd-res.rc
 endif
 
-nodexd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
-nodexd_CPPFLAGS = $(BITCOIN_INCLUDES)
-nodexd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+chronosd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
+chronosd_CPPFLAGS = $(BITCOIN_INCLUDES)
+chronosd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# nodex-cli binary #
-nodex_cli_LDADD = \
+# chronos-cli binary #
+chronos_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
   $(BOOST_LIBS) \
@@ -441,14 +441,14 @@ nodex_cli_LDADD = \
   $(CRYPTO_LIBS) \
   $(EVENT_LIBS)
 
-nodex_cli_SOURCES = \
-  nodex-cli.cpp
+chronos_cli_SOURCES = \
+  chronos-cli.cpp
 
-nodex_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+chronos_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
 #
 
-# nodex-tx binary #
-nodex_tx_LDADD = \
+# chronos-tx binary #
+chronos_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_ZEROCOIN) \
@@ -458,15 +458,15 @@ nodex_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-nodex_tx_SOURCES = nodex-tx.cpp
-nodex_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+chronos_tx_SOURCES = chronos-tx.cpp
+chronos_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-nodex_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+chronos_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-nodex_cli_SOURCES += nodex-cli-res.rc
+chronos_cli_SOURCES += chronos-cli-res.rc
 endif
-nodex_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+chronos_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

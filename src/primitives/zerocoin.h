@@ -1,8 +1,8 @@
 // Copyright (c) 2017 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef NODEX_ZEROCOIN_H
-#define NODEX_ZEROCOIN_H
+#ifndef CHRONOS_ZEROCOIN_H
+#define CHRONOS_ZEROCOIN_H
 
 #include <amount.h>
 #include <limits.h>
@@ -189,4 +189,4 @@ public:
     int GetNeededSpends();
 };
 
-#endif //NODEX_ZEROCOIN_H
+#endif //CHRONOS_ZEROCOIN_H

@@ -62,12 +62,12 @@
         <translation>Alıcı Adres</translation>
     </message>
     <message>
-        <source>These are your Nodex addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Bunlar ödemeleri göndermek için olan Nodex adreslerinizdir.Coinleri göndermeden önce her zaman gönderilen miktarı ve adresi kontrol edin</translation>
+        <source>These are your Chronos addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Bunlar ödemeleri göndermek için olan Chronos adreslerinizdir.Coinleri göndermeden önce her zaman gönderilen miktarı ve adresi kontrol edin</translation>
     </message>
     <message>
-        <source>These are your Nodex addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Bunlar ödemeleri almak için olan Nodex adreslerinizdirHer işlem için yeni bir adres kullanmanız önerilir.</translation>
+        <source>These are your Chronos addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Bunlar ödemeleri almak için olan Chronos adreslerinizdirHer işlem için yeni bir adres kullanmanız önerilir.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,15 +176,15 @@
         <translation>cüzdan şifrelemesini onayla</translation>
     </message>
     <message>
-        <source>Nodex will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DXDs from being stolen by malware infecting your computer.</source>
-        <translation>Nodex şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, DXD'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
+        <source>Chronos will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CHNs from being stolen by malware infecting your computer.</source>
+        <translation>Chronos şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, CHN'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DXD&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CHN&lt;/b&gt;!</source>
         <translation>Dikkat! Eğer cüzdanınızı şifrelerseniz ve şifrenizi unutursanız &lt;b&gt;Tüm Pıvlerinizi kaybedersiniz&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -242,8 +242,8 @@
         <translation>&amp;BIP 38 şifrele</translation>
     </message>
     <message>
-        <source>Enter a Nodex Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>BIP 38'i kullanarak şifrelemek istediğiniz bir Nodex Adresi girin. Orta kutuya bir parola girin. Şifreli özel anahtarı hesaplamak için şifreleme tuşuna basın.
+        <source>Enter a Chronos Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>BIP 38'i kullanarak şifrelemek istediğiniz bir Chronos Adresi girin. Orta kutuya bir parola girin. Şifreli özel anahtarı hesaplamak için şifreleme tuşuna basın.
 </translation>
     </message>
     <message>
@@ -251,8 +251,8 @@
         <translation>adres</translation>
     </message>
     <message>
-        <source>The Nodex address to sign the message with</source>
-        <translation>Ile mesaj imzalamak için Nodex adresi
+        <source>The Chronos address to sign the message with</source>
+        <translation>Ile mesaj imzalamak için Chronos adresi
 </translation>
     </message>
     <message>
@@ -289,8 +289,8 @@
 </translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Nodex address</source>
-        <translation>Bu Nodex adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala
+        <source>Sign the message to prove you own this Chronos address</source>
+        <translation>Bu Chronos adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala
 </translation>
     </message>
     <message>
@@ -316,12 +316,12 @@
         <translation>BIP 38 şifreli özel anahtarını girin. Orta kutuya şifreyi  girin. Özel anahtarı hesaplamak için Anahtarın Çözülmesini tıklayın. Anahtar çözüldükten sonra 'Alma Adresi'ni tıklamak, bu özel anahtarı cüzdana ekleyecektir.</translation>
     </message>
     <message>
-        <source>The Nodex address the message was signed with</source>
-        <translation>Mesajın imzalandığı Nodex adresi</translation>
+        <source>The Chronos address the message was signed with</source>
+        <translation>Mesajın imzalandığı Chronos adresi</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Nodex address</source>
-        <translation>Belirtilen Nodex adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
+        <source>Verify the message to ensure it was signed with the specified Chronos address</source>
+        <translation>Belirtilen Chronos adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -613,16 +613,16 @@
         <translation>Sekme tablosu</translation>
     </message>
     <message>
-        <source>Nodex Core</source>
-        <translation>Nodex CORE</translation>
+        <source>Chronos Core</source>
+        <translation>Chronos CORE</translation>
     </message>
     <message>
-        <source>Send coins to a Nodex address</source>
-        <translation>Koinleri Nodex adresine gönder</translation>
+        <source>Send coins to a Chronos address</source>
+        <translation>Koinleri Chronos adresine gönder</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and nodex: URIs)</source>
-        <translation>Ödeme talep etme (QR kodları ve nodex üretir: URI'ler)</translation>
+        <source>Request payments (generates QR codes and chronos: URIs)</source>
+        <translation>Ödeme talep etme (QR kodları ve chronos üretir: URI'ler)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -637,24 +637,24 @@
         <translation>Masternodları ara</translation>
     </message>
     <message>
-        <source>&amp;About Nodex Core</source>
+        <source>&amp;About Chronos Core</source>
         <translation>Pıvx core Hakkında</translation>
     </message>
     <message>
-        <source>Show information about Nodex Core</source>
+        <source>Show information about Chronos Core</source>
         <translation>Pıvx Core hakkında bilgi göster</translation>
     </message>
     <message>
-        <source>Modify configuration options for Nodex</source>
-        <translation>Nodex için yapılandırma seçeneklerini değiştirin</translation>
+        <source>Modify configuration options for Chronos</source>
+        <translation>Chronos için yapılandırma seçeneklerini değiştirin</translation>
     </message>
     <message>
-        <source>Sign messages with your Nodex addresses to prove you own them</source>
-        <translation>Sahip olduğunuzu kanıtlamak için mesajlarınızı Nodex adresleriyle imzalayın</translation>
+        <source>Sign messages with your Chronos addresses to prove you own them</source>
+        <translation>Sahip olduğunuzu kanıtlamak için mesajlarınızı Chronos adresleriyle imzalayın</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Nodex addresses</source>
-        <translation>Belirtilen Nodex adresleriyle imzalanmış olduklarından emin olmak için iletileri doğrulayın</translation>
+        <source>Verify messages to ensure they were signed with specified Chronos addresses</source>
+        <translation>Belirtilen Chronos adresleriyle imzalanmış olduklarından emin olmak için iletileri doğrulayın</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -686,8 +686,8 @@
         <translation>Açık Masternode yapılandırma dosyası</translation>
     </message>
     <message>
-        <source>Open a Nodex: URI or payment request</source>
-        <translation>Bir Nodex: URI veya ödeme isteği açın</translation>
+        <source>Open a Chronos: URI or payment request</source>
+        <translation>Bir Chronos: URI veya ödeme isteği açın</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -698,12 +698,12 @@
         <translation>Kaşif penceresini engelle</translation>
     </message>
     <message>
-        <source>Show the Nodex Core help message to get a list with possible Nodex command-line options</source>
-        <translation>Olası Nodex komut satırı seçeneklerine sahip bir liste almak için Nodex Core yardım mesajını gösterin</translation>
+        <source>Show the Chronos Core help message to get a list with possible Chronos command-line options</source>
+        <translation>Olası Chronos komut satırı seçeneklerine sahip bir liste almak için Chronos Core yardım mesajını gösterin</translation>
     </message>
     <message>
-        <source>Nodex Core client</source>
-        <translation>Nodex Core istemci</translation>
+        <source>Chronos Core client</source>
+        <translation>Chronos Core istemci</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -834,8 +834,8 @@ Adres: %4</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (nodex.conf).</source>
-        <translation>Tüm işlemler gösterilmez. Tüm işlemleri görmek için yapılandırma dosyasında txindex = 1 ayarlamanız gerekir (nodex.conf).
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (chronos.conf).</source>
+        <translation>Tüm işlemler gösterilmez. Tüm işlemleri görmek için yapılandırma dosyasında txindex = 1 ayarlamanız gerekir (chronos.conf).
 </translation>
     </message>
 </context>
@@ -1121,8 +1121,8 @@ Adres: %4</translation>
         <translation>versiyon</translation>
     </message>
     <message>
-        <source>Nodex Core</source>
-        <translation>Nodex CORE</translation>
+        <source>Chronos Core</source>
+        <translation>Chronos CORE</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -1144,16 +1144,16 @@ Adres: %4</translation>
         <translation>Hoşgeldiniz</translation>
     </message>
     <message>
-        <source>Welcome to Nodex Core.</source>
-        <translation>Nodex Core'a hoşgeldiniz.</translation>
+        <source>Welcome to Chronos Core.</source>
+        <translation>Chronos Core'a hoşgeldiniz.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
         <translation>Varsayılan veri dosyasını kullanınız</translation>
     </message>
     <message>
-        <source>Nodex Core</source>
-        <translation>Nodex CORE</translation>
+        <source>Chronos Core</source>
+        <translation>Chronos CORE</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1508,8 +1508,8 @@ Adres: %4</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Nodex address to sign the message with</source>
-        <translation>Ile mesaj imzalamak için Nodex adresi
+        <source>The Chronos address to sign the message with</source>
+        <translation>Ile mesaj imzalamak için Chronos adresi
 </translation>
     </message>
     <message>
@@ -1538,17 +1538,17 @@ Adres: %4</translation>
 </translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Nodex address</source>
-        <translation>Bu Nodex adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala
+        <source>Sign the message to prove you own this Chronos address</source>
+        <translation>Bu Chronos adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala
 </translation>
     </message>
     <message>
-        <source>The Nodex address the message was signed with</source>
-        <translation>Mesajın imzalandığı Nodex adresi</translation>
+        <source>The Chronos address the message was signed with</source>
+        <translation>Mesajın imzalandığı Chronos adresi</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Nodex address</source>
-        <translation>Belirtilen Nodex adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
+        <source>Verify the message to ensure it was signed with the specified Chronos address</source>
+        <translation>Belirtilen Chronos adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1587,8 +1587,8 @@ Adres: %4</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Nodex Core</source>
-        <translation>Nodex CORE</translation>
+        <source>Chronos Core</source>
+        <translation>Chronos CORE</translation>
     </message>
     </context>
 <context>
@@ -1687,14 +1687,14 @@ Adres: %4</translation>
     </message>
     </context>
 <context>
-    <name>ZDxdControlDialog</name>
+    <name>ZChnControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     </context>
 <context>
-    <name>nodex-core</name>
+    <name>chronos-core</name>
     <message>
         <source>Error</source>
         <translation>hata</translation>

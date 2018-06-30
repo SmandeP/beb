@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The Nodex developers
+// Copyright (c) 2018 The Chronos developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -238,10 +238,10 @@ Value stop(const Array& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop Nodex server.");
+            "\nStop Chronos server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "Nodex server stopping";
+    return "Chronos server stopping";
 }
 
 
@@ -319,36 +319,36 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* Nodex features */
-        {"nodex", "masternode", &masternode, true, true, false},
-        {"nodex", "listmasternodes", &listmasternodes, true, true, false},
-        {"nodex", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"nodex", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"nodex", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"nodex", "masternodedebug", &masternodedebug, true, true, false},
-        {"nodex", "startmasternode", &startmasternode, true, true, false},
-        {"nodex", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"nodex", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"nodex", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"nodex", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"nodex", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"nodex", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"nodex", "mnbudget", &mnbudget, true, true, false},
-        {"nodex", "preparebudget", &preparebudget, true, true, false},
-        {"nodex", "submitbudget", &submitbudget, true, true, false},
-        {"nodex", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"nodex", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"nodex", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"nodex", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"nodex", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"nodex", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"nodex", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"nodex", "checkbudgets", &checkbudgets, true, true, false},
-        {"nodex", "mnsync", &mnsync, true, true, false},
-        {"nodex", "spork", &spork, true, true, false},
-        {"nodex", "getpoolinfo", &getpoolinfo, true, true, false},
+        /* Chronos features */
+        {"chronos", "masternode", &masternode, true, true, false},
+        {"chronos", "listmasternodes", &listmasternodes, true, true, false},
+        {"chronos", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"chronos", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"chronos", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"chronos", "masternodedebug", &masternodedebug, true, true, false},
+        {"chronos", "startmasternode", &startmasternode, true, true, false},
+        {"chronos", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"chronos", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"chronos", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"chronos", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"chronos", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"chronos", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"chronos", "mnbudget", &mnbudget, true, true, false},
+        {"chronos", "preparebudget", &preparebudget, true, true, false},
+        {"chronos", "submitbudget", &submitbudget, true, true, false},
+        {"chronos", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"chronos", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"chronos", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"chronos", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"chronos", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"chronos", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"chronos", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"chronos", "checkbudgets", &checkbudgets, true, true, false},
+        {"chronos", "mnsync", &mnsync, true, true, false},
+        {"chronos", "spork", &spork, true, true, false},
+        {"chronos", "getpoolinfo", &getpoolinfo, true, true, false},
 #ifdef ENABLE_WALLET
-        {"nodex", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
+        {"chronos", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
 
         /* Wallet */
         {"wallet", "addmultisigaddress", &addmultisigaddress, true, false, true},
@@ -628,16 +628,16 @@ void StartRPCThreads()
         unsigned char rand_pwd[32];
         GetRandBytes(rand_pwd, 32);
         uiInterface.ThreadSafeMessageBox(strprintf(
-                                             _("To use nodexd, or the -server option to nodex-qt, you must set an rpcpassword in the configuration file:\n"
+                                             _("To use chronosd, or the -server option to chronos-qt, you must set an rpcpassword in the configuration file:\n"
                                                "%s\n"
                                                "It is recommended you use the following random password:\n"
-                                               "rpcuser=nodexrpc\n"
+                                               "rpcuser=chronosrpc\n"
                                                "rpcpassword=%s\n"
                                                "(you do not need to remember this password)\n"
                                                "The username and password MUST NOT be the same.\n"
                                                "If the file does not exist, create it with owner-readable-only file permissions.\n"
                                                "It is also recommended to set alertnotify so you are notified of problems;\n"
-                                               "for example: alertnotify=echo %%s | mail -s \"Nodex Alert\" admin@foo.com\n"),
+                                               "for example: alertnotify=echo %%s | mail -s \"Chronos Alert\" admin@foo.com\n"),
                                              GetConfigFile().string(),
                                              EncodeBase58(&rand_pwd[0], &rand_pwd[0] + 32)),
             "", CClientUIInterface::MSG_ERROR | CClientUIInterface::SECURE);
@@ -1088,7 +1088,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> nodex-cli " + methodname + " " + args + "\n";
+    return "> chronos-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

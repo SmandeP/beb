@@ -90,12 +90,12 @@ Object blockToJSON(const CBlock& block, const CBlockIndex* blockindex, bool txDe
 
     result.push_back(Pair("moneysupply",ValueFromAmount(blockindex->nMoneySupply)));
 
-    Object zdxdObj;
+    Object zchnObj;
     for (auto denom : libzerocoin::zerocoinDenomList) {
-        zdxdObj.push_back(Pair(to_string(denom), ValueFromAmount(blockindex->mapZerocoinSupply.at(denom) * (denom*COIN))));
+        zchnObj.push_back(Pair(to_string(denom), ValueFromAmount(blockindex->mapZerocoinSupply.at(denom) * (denom*COIN))));
     }
-    zdxdObj.emplace_back(Pair("total", ValueFromAmount(blockindex->GetZerocoinSupply())));
-    result.emplace_back(Pair("zDXDsupply", zdxdObj));
+    zchnObj.emplace_back(Pair("total", ValueFromAmount(blockindex->GetZerocoinSupply())));
+    result.emplace_back(Pair("zCHNsupply", zchnObj));
 
     return result;
 }
@@ -175,7 +175,7 @@ Value getrawmempool(const Array& params, bool fHelp)
             "{                           (json object)\n"
             "  \"transactionid\" : {       (json object)\n"
             "    \"size\" : n,             (numeric) transaction size in bytes\n"
-            "    \"fee\" : n,              (numeric) transaction fee in nodex\n"
+            "    \"fee\" : n,              (numeric) transaction fee in chronos\n"
             "    \"time\" : n,             (numeric) local time transaction entered pool in seconds since 1 Jan 1970 GMT\n"
             "    \"height\" : n,           (numeric) block height when transaction entered pool\n"
             "    \"startingpriority\" : n, (numeric) priority when transaction entered pool\n"
@@ -278,17 +278,17 @@ Value getblock(const Array& params, bool fHelp)
             "  \"previousblockhash\" : \"hash\",  (string) The hash of the previous block\n"
             "  \"nextblockhash\" : \"hash\"       (string) The hash of the next block\n"
             "  \"moneysupply\" : \"supply\"       (numeric) The money supply when this block was added to the blockchain\n"
-            "  \"zDXDsupply\" :\n"
+            "  \"zCHNsupply\" :\n"
             "  {\n"
-            "     \"1\" : n,            (numeric) supply of 1 zDXD denomination\n"
-            "     \"5\" : n,            (numeric) supply of 5 zDXD denomination\n"
-            "     \"10\" : n,           (numeric) supply of 10 zDXD denomination\n"
-            "     \"50\" : n,           (numeric) supply of 50 zDXD denomination\n"
-            "     \"100\" : n,          (numeric) supply of 100 zDXD denomination\n"
-            "     \"500\" : n,          (numeric) supply of 500 zDXD denomination\n"
-            "     \"1000\" : n,         (numeric) supply of 1000 zDXD denomination\n"
-            "     \"5000\" : n,         (numeric) supply of 5000 zDXD denomination\n"
-            "     \"total\" : n,        (numeric) The total supply of all zDXD denominations\n"
+            "     \"1\" : n,            (numeric) supply of 1 zCHN denomination\n"
+            "     \"5\" : n,            (numeric) supply of 5 zCHN denomination\n"
+            "     \"10\" : n,           (numeric) supply of 10 zCHN denomination\n"
+            "     \"50\" : n,           (numeric) supply of 50 zCHN denomination\n"
+            "     \"100\" : n,          (numeric) supply of 100 zCHN denomination\n"
+            "     \"500\" : n,          (numeric) supply of 500 zCHN denomination\n"
+            "     \"1000\" : n,         (numeric) supply of 1000 zCHN denomination\n"
+            "     \"5000\" : n,         (numeric) supply of 5000 zCHN denomination\n"
+            "     \"total\" : n,        (numeric) The total supply of all zCHN denominations\n"
             "  }\n"
             "}\n"
             "\nResult (for verbose=false):\n"
@@ -422,14 +422,14 @@ Value gettxout(const Array& params, bool fHelp)
             "{\n"
             "  \"bestblock\" : \"hash\",    (string) the block hash\n"
             "  \"confirmations\" : n,       (numeric) The number of confirmations\n"
-            "  \"value\" : x.xxx,           (numeric) The transaction value in nodex\n"
+            "  \"value\" : x.xxx,           (numeric) The transaction value in chronos\n"
             "  \"scriptPubKey\" : {         (json object)\n"
             "     \"asm\" : \"code\",       (string) \n"
             "     \"hex\" : \"hex\",        (string) \n"
             "     \"reqSigs\" : n,          (numeric) Number of required signatures\n"
             "     \"type\" : \"pubkeyhash\", (string) The type, e.g. pubkeyhash\n"
-            "     \"addresses\" : [          (array of string) array of nodex addresses\n"
-            "     \"nodexaddress\"   	 	(string) nodex address\n"
+            "     \"addresses\" : [          (array of string) array of chronos addresses\n"
+            "     \"chronosaddress\"   	 	(string) chronos address\n"
             "        ,...\n"
             "     ]\n"
             "  },\n"

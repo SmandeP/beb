@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: nodexd.service
-Upstart: nodexd.conf
-OpenRC:  nodexd.openrc
-         nodexd.openrcconf
-CentOS:  nodexd.init
+SystemD: chronosd.service
+Upstart: chronosd.conf
+OpenRC:  chronosd.openrc
+         chronosd.openrcconf
+CentOS:  chronosd.init
 
 have been made available to assist packagers in creating node packages here.
 

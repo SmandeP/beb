@@ -1,39 +1,39 @@
-Nodex Core
+Chronos Core
 =====================
 
 Setup
 ---------------------
-[Nodex Core](http://nodex.org/wallet) is the original Nodex client and it builds the backbone of the network. However, it downloads and stores the entire history of Nodex transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[Chronos Core](http://chronos.org/wallet) is the original Chronos client and it builds the backbone of the network. However, it downloads and stores the entire history of Chronos transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run Nodex on your native platform.
+The following are some helpful notes on how to run Chronos on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- bin/32/nodex-qt (GUI, 32-bit) or bin/32/nodexd (headless, 32-bit)
-- bin/64/nodex-qt (GUI, 64-bit) or bin/64/nodexd (headless, 64-bit)
+- bin/32/chronos-qt (GUI, 32-bit) or bin/32/chronosd (headless, 32-bit)
+- bin/64/chronos-qt (GUI, 64-bit) or bin/64/chronosd (headless, 64-bit)
 
 ### Windows
 
-Unpack the files into a directory, and then run nodex-qt.exe.
+Unpack the files into a directory, and then run chronos-qt.exe.
 
 ### OSX
 
-Drag Nodex-Qt to your applications folder, and then run Nodex-Qt.
+Drag Chronos-Qt to your applications folder, and then run Chronos-Qt.
 
 ### Need Help?
 
-* See the documentation at the [Nodex Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
+* See the documentation at the [Chronos Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [Nodex Forum](http://forum.nodex.org/).
-* Join one of our Slack groups [Nodex Slack Groups](https://nodex.org/slack-logins/).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [Chronos Forum](http://forum.chronos.org/).
+* Join one of our Slack groups [Chronos Slack Groups](https://chronos.org/slack-logins/).
 
 Building
 ---------------------
-The following are developer notes on how to build Nodex on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Chronos on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -41,7 +41,7 @@ The following are developer notes on how to build Nodex on your native platform.
 
 Development
 ---------------------
-The Nodex repo's [root README](https://github.com/nodexproject/Nodex/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Chronos repo's [root README](https://github.com/chronosproject/Chronos/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -55,8 +55,8 @@ The Nodex repo's [root README](https://github.com/nodexproject/Nodex/blob/master
 
 ### Resources
 
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [Nodex](http://forum.nodex.org/) forum.
-* Join the [Nodex-Dev](https://nodex-dev.slack.com/) Slack group ([Sign-Up](https://nodex-dev.herokuapp.com/)).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [Chronos](http://forum.chronos.org/) forum.
+* Join the [Chronos-Dev](https://chronos-dev.slack.com/) Slack group ([Sign-Up](https://chronos-dev.herokuapp.com/)).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

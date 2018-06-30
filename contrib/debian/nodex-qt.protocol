@@ -1,6 +1,6 @@
 [Protocol]
-exec=nodex-qt '%u'
-protocol=nodex
+exec=chronos-qt '%u'
+protocol=chronos
 input=none
 output=none
 helper=true

@@ -64,11 +64,11 @@
         <translation>受信用アドレス</translation>
     </message>
     <message>
-        <source>These are your Nodex addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Chronos addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>これは支払い先アドレスです。送金の際には常に送金量・送金先アドレスを確認してください。</translation>
     </message>
     <message>
-        <source>These are your Nodex addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Chronos addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>受け取り用アドレスです。各トランザクション/受信 につき新しいアドレスを使うことをお勧めします。</translation>
     </message>
     <message>
@@ -178,16 +178,16 @@
         <translation>ウォレットの再暗号化を行いました</translation>
     </message>
     <message>
-        <source>Nodex will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DXDs from being stolen by malware infecting your computer.</source>
-        <translation>暗号化を完了するためウォレットを閉じます。暗号化されたため、パスワードがなければ攻撃者はDXDを送金できません。</translation>
+        <source>Chronos will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CHNs from being stolen by malware infecting your computer.</source>
+        <translation>暗号化を完了するためウォレットを閉じます。暗号化されたため、パスワードがなければ攻撃者はCHNを送金できません。</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>ウォレットを暗号化しますか？</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DXD&lt;/b&gt;!</source>
-        <translation>注意 : もし暗号化した後パスワードを忘れた場合 &lt;b&gt;すべてのDXDを失います&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CHN&lt;/b&gt;!</source>
+        <translation>注意 : もし暗号化した後パスワードを忘れた場合 &lt;b&gt;すべてのCHNを失います&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -241,16 +241,16 @@
         <translation>&amp;BIP 38 暗号化</translation>
     </message>
     <message>
-        <source>Enter a Nodex Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>BIP38 を用いて暗号化したNodex アドレスを入力してください。パスワードを中段の入力欄に記入し、encrypt ボタンを押して暗号化されたプライベートキーを取得しましょう。</translation>
+        <source>Enter a Chronos Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>BIP38 を用いて暗号化したChronos アドレスを入力してください。パスワードを中段の入力欄に記入し、encrypt ボタンを押して暗号化されたプライベートキーを取得しましょう。</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>アドレス:</translation>
     </message>
     <message>
-        <source>The Nodex address to sign the message with</source>
-        <translation>メッセージを署名したいNodex アドレス</translation>
+        <source>The Chronos address to sign the message with</source>
+        <translation>メッセージを署名したいChronos アドレス</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -281,8 +281,8 @@
         <translation>今表示されている署名をクリップボードへコピー</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Nodex address</source>
-        <translation>Nodex アドレスの所持を証明するためにこのメッセージを署名</translation>
+        <source>Sign the message to prove you own this Chronos address</source>
+        <translation>Chronos アドレスの所持を証明するためにこのメッセージを署名</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -305,12 +305,12 @@
         <translation>BIP38 暗号化されたプライベートキーを一番上の欄に入力し、二番目の欄にパスワードを入力してください。プライベートキーを出力するため、復号化ボタンを押してください。アドレスのインポートをクリックしてウォレットに追加できます。</translation>
     </message>
     <message>
-        <source>The Nodex address the message was signed with</source>
-        <translation>このNodexアドレスのメッセージは次により署名されています</translation>
+        <source>The Chronos address the message was signed with</source>
+        <translation>このChronosアドレスのメッセージは次により署名されています</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Nodex address</source>
-        <translation>メッセージが特定のNodexアドレスにより署名されていることを確認してください。</translation>
+        <source>Verify the message to ensure it was signed with the specified Chronos address</source>
+        <translation>メッセージが特定のChronosアドレスにより署名されていることを確認してください。</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -606,16 +606,16 @@
         <translation>ツールバー</translation>
     </message>
     <message>
-        <source>Nodex Core</source>
-        <translation>Nodex コア</translation>
+        <source>Chronos Core</source>
+        <translation>Chronos コア</translation>
     </message>
     <message>
-        <source>Send coins to a Nodex address</source>
-        <translation>Nodex addressへ送金する</translation>
+        <source>Send coins to a Chronos address</source>
+        <translation>Chronos addressへ送金する</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and nodex: URIs)</source>
-        <translation>支払いを作成する (QRコード または nodex: URIを作成)</translation>
+        <source>Request payments (generates QR codes and chronos: URIs)</source>
+        <translation>支払いを作成する (QRコード または chronos: URIを作成)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -626,24 +626,24 @@
         <translation>マスターノードを参照</translation>
     </message>
     <message>
-        <source>&amp;About Nodex Core</source>
-        <translation>&amp;Nodex コアについて</translation>
+        <source>&amp;About Chronos Core</source>
+        <translation>&amp;Chronos コアについて</translation>
     </message>
     <message>
-        <source>Show information about Nodex Core</source>
-        <translation>Nodex コアの情報をみる</translation>
+        <source>Show information about Chronos Core</source>
+        <translation>Chronos コアの情報をみる</translation>
     </message>
     <message>
-        <source>Modify configuration options for Nodex</source>
-        <translation>Nodexのオプションを編集する</translation>
+        <source>Modify configuration options for Chronos</source>
+        <translation>Chronosのオプションを編集する</translation>
     </message>
     <message>
-        <source>Sign messages with your Nodex addresses to prove you own them</source>
+        <source>Sign messages with your Chronos addresses to prove you own them</source>
         <translation>あなたがそのアドレスを所有していることをメッセージの署名を用いて証明する</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Nodex addresses</source>
-        <translation>メッセージが特定のNodexアドレスにより署名されていることを確認する</translation>
+        <source>Verify messages to ensure they were signed with specified Chronos addresses</source>
+        <translation>メッセージが特定のChronosアドレスにより署名されていることを確認する</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -674,8 +674,8 @@
         <translation>マスターノードの設定ファイルを開く</translation>
     </message>
     <message>
-        <source>Open a Nodex: URI or payment request</source>
-        <translation>Nodex: URI か支払いリクエストを開く</translation>
+        <source>Open a Chronos: URI or payment request</source>
+        <translation>Chronos: URI か支払いリクエストを開く</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -686,15 +686,15 @@
         <translation>ブロックエクスプローラ</translation>
     </message>
     <message>
-        <source>Show the Nodex Core help message to get a list with possible Nodex command-line options</source>
-        <translation>Nodex コアのヘルプメッセージを表示してコマンドラインオプションを確認する</translation>
+        <source>Show the Chronos Core help message to get a list with possible Chronos command-line options</source>
+        <translation>Chronos コアのヘルプメッセージを表示してコマンドラインオプションを確認する</translation>
     </message>
     <message>
-        <source>Nodex Core client</source>
-        <translation>Nodex コア クライアント</translation>
+        <source>Chronos Core client</source>
+        <translation>Chronos コア クライアント</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Nodex network</source>
+        <source>%n active connection(s) to Chronos network</source>
         <translation>
             <numerusform>%n 個のアクティブなノードが存在します</numerusform>
         </translation>
@@ -836,8 +836,8 @@ Address: %4
         <translation>&amp;匿名化</translation>
     </message>
     <message>
-        <source>Privacy Actions for zDXD</source>
-        <translation>zDXDによる匿名化</translation>
+        <source>Privacy Actions for zCHN</source>
+        <translation>zCHNによる匿名化</translation>
     </message>
     <message>
         <source>&amp;Multisignature creation...</source>
@@ -868,8 +868,8 @@ Address: %4
         <translation>%1 前です。ブロックをスキャン中 %2</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Nodex can no longer continue safely and will quit.</source>
-        <translation>致命的なエラーが発生しました。Nodexは終了します。</translation>
+        <source>A fatal error occurred. Chronos can no longer continue safely and will quit.</source>
+        <translation>致命的なエラーが発生しました。Chronosは終了します。</translation>
     </message>
     <message>
         <source>High Sierra not supported with this build</source>
@@ -895,8 +895,8 @@ Address: %4
         <translation>テキスト</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (nodex.conf).</source>
-        <translation>すべてのトランザクションが確認できるわけではありません。全て確認したい場合、txindex=1 とウォレット設定ファイルへ追加してください (nodex.conf)。</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (chronos.conf).</source>
+        <translation>すべてのトランザクションが確認できるわけではありません。全て確認したい場合、txindex=1 とウォレット設定ファイルへ追加してください (chronos.conf)。</translation>
     </message>
 </context>
 <context>
@@ -1204,8 +1204,8 @@ Address: %4
         <translation>送金アドレスを編集</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Nodex address.</source>
-        <translation>入力したアドレス &quot;%1&quot; は正しいNodexアドレスではありません </translation>
+        <source>The entered address &quot;%1&quot; is not a valid Chronos address.</source>
+        <translation>入力したアドレス &quot;%1&quot; は正しいChronosアドレスではありません </translation>
     </message>
     <message>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
@@ -1250,16 +1250,16 @@ Address: %4
         <translation>バージョン</translation>
     </message>
     <message>
-        <source>Nodex Core</source>
-        <translation>Nodex コア</translation>
+        <source>Chronos Core</source>
+        <translation>Chronos コア</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Nodex Core</source>
-        <translation>Nodex コアについて</translation>
+        <source>About Chronos Core</source>
+        <translation>Chronos コアについて</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1305,16 +1305,16 @@ Address: %4
         <translation>ようこそ</translation>
     </message>
     <message>
-        <source>Welcome to Nodex Core.</source>
-        <translation>Nodex コアへようこそ</translation>
+        <source>Welcome to Chronos Core.</source>
+        <translation>Chronos コアへようこそ</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Nodex Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Chronos Core will store its data.</source>
         <translation>これが初期起動の場合、データフォルダの場所を選択できます。</translation>
     </message>
     <message>
-        <source>Nodex Core will download and store a copy of the Nodex block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Nodex コアはNodexのブロックチェーンデータをダウンロードします。データフォルダには少なくとも %1 GB程度の空き容量が必要です。ウォレットデータもこの場所へ保存されます。</translation>
+        <source>Chronos Core will download and store a copy of the Chronos block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Chronos コアはChronosのブロックチェーンデータをダウンロードします。データフォルダには少なくとも %1 GB程度の空き容量が必要です。ウォレットデータもこの場所へ保存されます。</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1325,8 +1325,8 @@ Address: %4
         <translation>カスタムデータフォルダを利用する:</translation>
     </message>
     <message>
-        <source>Nodex Core</source>
-        <translation>Nodex コア</translation>
+        <source>Chronos Core</source>
+        <translation>Chronos コア</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; cannot be created.</source>
@@ -1467,8 +1467,8 @@ Address: %4
         <translation>送り先のアドレスを入力</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Nodex addresses after it matures.
-To Add: enter percentage to give and Nodex address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Chronos addresses after it matures.
+To Add: enter percentage to give and Chronos address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
         <translation>MultiSendは最大100%までステーキング・マスターノード報酬を成熟後に他のアドレスへ自動で送金します。
@@ -1611,48 +1611,48 @@ Please check the address and try again.</source>
         <translation>Please select a privacy level.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 DXD</source>
-        <translation>Use 2 separate masternodes to mix funds up to 10000 DXD</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 CHN</source>
+        <translation>Use 2 separate masternodes to mix funds up to 10000 CHN</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 DXD</source>
-        <translation>Use 8 separate masternodes to mix funds up to 10000 DXD</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 CHN</source>
+        <translation>Use 8 separate masternodes to mix funds up to 10000 CHN</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Use 16 separate masternodes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 DXD to anonymize 10000 DXD</source>
-        <translation>This option is the quickest and will cost about ~0.025 DXD to anonymize 10000 DXD</translation>
+        <source>This option is the quickest and will cost about ~0.025 CHN to anonymize 10000 CHN</source>
+        <translation>This option is the quickest and will cost about ~0.025 CHN to anonymize 10000 CHN</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 DXD to anonymize 10000 DXD</source>
-        <translation>This option is moderately fast and will cost about 0.05 DXD to anonymize 10000 DXD</translation>
+        <source>This option is moderately fast and will cost about 0.05 CHN to anonymize 10000 CHN</source>
+        <translation>This option is moderately fast and will cost about 0.05 CHN to anonymize 10000 CHN</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>This is the slowest and most secure option. Using maximum anonymity will cost</translation>
     </message>
     <message>
-        <source>0.1 DXD per 10000 DXD you anonymize.</source>
-        <translation>0.1 DXD per 10000 DXD you anonymize.</translation>
+        <source>0.1 CHN per 10000 CHN you anonymize.</source>
+        <translation>0.1 CHN per 10000 CHN you anonymize.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Obfuscation Configuration</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Nodex&apos;s configuration screen.</source>
-        <translation>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Nodex&apos;s configuration screen.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Chronos&apos;s configuration screen.</source>
+        <translation>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Chronos&apos;s configuration screen.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Nodex&apos;s configuration screen.</source>
-        <translation>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Nodex&apos;s configuration screen.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Chronos&apos;s configuration screen.</source>
+        <translation>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Chronos&apos;s configuration screen.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Nodex&apos;s configuration screen.</source>
-        <translation>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Nodex&apos;s configuration screen.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Chronos&apos;s configuration screen.</source>
+        <translation>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Chronos&apos;s configuration screen.</translation>
     </message>
 </context>
 <context>
@@ -1713,8 +1713,8 @@ Please check the address and try again.</source>
         <translation>未確認のお釣りの利用を無効にした場合、&lt;br/&gt;1確認されるまでお釣りを使用できません。&lt;br/&gt;</translation>
     </message>
     <message>
-        <source>Automatically open the Nodex client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Nodex クライアントの利用するポートを自動で開きます。ルーターがUPnPに対応していて、有効な場合のみ動作します。</translation>
+        <source>Automatically open the Chronos client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Chronos クライアントの利用するポートを自動で開きます。ルーターがUPnPに対応していて、有効な場合のみ動作します。</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1733,12 +1733,12 @@ Please check the address and try again.</source>
         <translation>経験者向け</translation>
     </message>
     <message>
-        <source>Automatically start Nodex after logging in to the system.</source>
-        <translation>ログイン後、nodex-qtが自動的に起動します。</translation>
+        <source>Automatically start Chronos after logging in to the system.</source>
+        <translation>ログイン後、chronos-qtが自動的に起動します。</translation>
     </message>
     <message>
-        <source>&amp;Start Nodex on system login</source>
-        <translation>&amp;ログイン時にNodex-qtを起動する</translation>
+        <source>&amp;Start Chronos on system login</source>
+        <translation>&amp;ログイン時にChronos-qtを起動する</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
@@ -1753,8 +1753,8 @@ Please check the address and try again.</source>
         <translation>This amount acts as a threshold to turn off Obfuscation once it&apos;s reached.</translation>
     </message>
     <message>
-        <source>Amount of Nodex to keep anonymized</source>
-        <translation>Amount of Nodex to keep anonymized</translation>
+        <source>Amount of Chronos to keep anonymized</source>
+        <translation>Amount of Chronos to keep anonymized</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1781,22 +1781,22 @@ Please check the address and try again.</source>
         <translation>&amp;ネットワーク</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Nodex.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Chronos.</source>
         <translation>ユーザーインターフェースの言語設定を変更できます。変更はウォレットの次の起動から有効になります。</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/nodex-project/nodex-project-translations</source>
+https://www.transifex.com/chronos-project/chronos-project-translations</source>
         <translation>不完全なところがございましたか？ぜひこちらよりご協力ください。:
-https://www.transifex.com/nodex-project/nodex-project-translations</translation>
+https://www.transifex.com/chronos-project/chronos-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>UPnP&amp;を用いたポートマッピング</translation>
     </message>
     <message>
-        <source>Connect to the Nodex network through a SOCKS5 proxy.</source>
-        <translation>SOCKS5 プロキシを通してNodexネットワークへ接続</translation>
+        <source>Connect to the Chronos network through a SOCKS5 proxy.</source>
+        <translation>SOCKS5 プロキシを通してChronosネットワークへ接続</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1915,20 +1915,20 @@ https://www.transifex.com/nodex-project/nodex-project-translations</translation>
         <translation>入力されたプロキシアドレスは正しくありません。</translation>
     </message>
     <message>
-        <source>Percentage of incoming DXD which get automatically converted to zDXD via Zerocoin Protocol (min: 10%)</source>
-        <translation>受け取られるDXDをzDXD(ゼロコインプロトコル)へ変換する比率(最小: 10%)</translation>
+        <source>Percentage of incoming CHN which get automatically converted to zCHN via Zerocoin Protocol (min: 10%)</source>
+        <translation>受け取られるCHNをzCHN(ゼロコインプロトコル)へ変換する比率(最小: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zDXD</source>
-        <translation>zDXDの自動変換の比率</translation>
+        <source>Percentage of autominted zCHN</source>
+        <translation>zCHNの自動変換の比率</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough DXD for this denomination is available</source>
-        <translation>選択したdenominationへ変換できるまでDXDの自動変換を中断する</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough CHN for this denomination is available</source>
+        <translation>選択したdenominationへ変換できるまでCHNの自動変換を中断する</translation>
     </message>
     <message>
-        <source>Preferred Automint zDXD Denomination</source>
-        <translation>自動変換するzDXDのdenomination</translation>
+        <source>Preferred Automint zCHN Denomination</source>
+        <translation>自動変換するzCHNのdenomination</translation>
     </message>
     <message>
         <source>I don&apos;t care</source>
@@ -1970,7 +1970,7 @@ https://www.transifex.com/nodex-project/nodex-project-translations</translation>
         <translation>残高</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Nodex network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Chronos network after a connection is established, but this process has not completed yet.</source>
         <translation>表示されている情報は最新ではありません。ネットワークへ接続され次第ウォレットは同期されますが、まだ未完了です。</translation>
     </message>
     <message>
@@ -2014,8 +2014,8 @@ https://www.transifex.com/nodex-project/nodex-project-translations</translation>
         <translation>Obfuscation Balance:</translation>
     </message>
     <message>
-        <source>0 DXD / 0 Rounds</source>
-        <translation>0 DXD / 0 Rounds</translation>
+        <source>0 CHN / 0 Rounds</source>
+        <translation>0 CHN / 0 Rounds</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -2160,8 +2160,8 @@ https://www.transifex.com/nodex-project/nodex-project-translations</translation>
         <translation>N/A</translation>
     </message>
     <message>
-        <source>DXD Balances</source>
-        <translation>DXDの残高</translation>
+        <source>CHN Balances</source>
+        <translation>CHNの残高</translation>
     </message>
     <message>
         <source>Combined Balances (including unconfirmed and immature coins)</source>
@@ -2176,37 +2176,37 @@ https://www.transifex.com/nodex-project/nodex-project-translations</translation>
         <translation>未確認・未成熟を含んだ全残高。</translation>
     </message>
     <message>
-        <source>DXD:</source>
-        <translation>DXD:</translation>
+        <source>CHN:</source>
+        <translation>CHN:</translation>
     </message>
     <message>
-        <source>zDXD:</source>
-        <translation>zDXD:</translation>
+        <source>zCHN:</source>
+        <translation>zCHN:</translation>
     </message>
     <message>
-        <source>Current percentage of zDXD.
+        <source>Current percentage of zCHN.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%)</source>
-        <translation>現在のzDXDの総所持数への比率。自動変換を有効にしている場合、その比率前後になっています。(デフォルト=10%)</translation>
+        <translation>現在のzCHNの総所持数への比率。自動変換を有効にしている場合、その比率前後になっています。(デフォルト=10%)</translation>
     </message>
     <message>
         <source>0 %</source>
         <translation>0 %</translation>
     </message>
     <message>
-        <source>Locked DXD or Masternode collaterals. These are excluded from zDXD minting.</source>
-        <translation>ロックされたDXD・マスターノードの担保。zDXDの変換対象から除外されます。</translation>
+        <source>Locked CHN or Masternode collaterals. These are excluded from zCHN minting.</source>
+        <translation>ロックされたCHN・マスターノードの担保。zCHNの変換対象から除外されます。</translation>
     </message>
     <message>
-        <source>0.000 000 00 DXD</source>
-        <translation>0 DXD {0.000 000 00 ?}</translation>
+        <source>0.000 000 00 CHN</source>
+        <translation>0 CHN {0.000 000 00 ?}</translation>
     </message>
     <message>
         <source>Locked:</source>
         <translation>ロック済:</translation>
     </message>
     <message>
-        <source>Unlocked DXDs. These can be used for zDXD minting.</source>
-        <translation>未ロックのDXD。zDXDへの変換に利用可能です。</translation>
+        <source>Unlocked CHNs. These can be used for zCHN minting.</source>
+        <translation>未ロックのCHN。zCHNへの変換に利用可能です。</translation>
     </message>
     <message>
         <source>Unlocked:</source>
@@ -2218,17 +2218,17 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 3 mints of the same denomination after it was minted.
-These zDXD are spendable.</source>
+These zCHN are spendable.</source>
         <translation>成熟: 20確認と同じdenominationでの3変換が必要です。
-その後zDXDは使用可能になります。</translation>
+その後zCHNは使用可能になります。</translation>
     </message>
     <message>
         <source>Mature:</source>
         <translation>成熟:</translation>
     </message>
     <message>
-        <source>All available zDXD, unconfirmed and immature zDXD included.</source>
-        <translation>全zDXDの合計。未確認・未成熟のzDXDを含みます。</translation>
+        <source>All available zCHN, unconfirmed and immature zCHN included.</source>
+        <translation>全zCHNの合計。未確認・未成熟のzCHNを含みます。</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2241,10 +2241,10 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
         <translation>未確認:</translation>
     </message>
     <message>
-        <source>Current percentage of zDXD.
+        <source>Current percentage of zCHN.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>現在の所持数とzDXDの比率です。
+        <translation>現在の所持数とzCHNの比率です。
 自動変換が有効であれば指定された比率程度になります (デフォルト = 10%)。
 </translation>
     </message>
@@ -2253,14 +2253,14 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
         <translation>自動変換は有効です </translation>
     </message>
     <message>
-        <source>To disable AutoMint delete set &apos;enablezeromint=1&apos; to &apos;enablezeromint=0&apos; in nodex.conf.</source>
-        <translation>自動変換を無効化するには、nodex.conf の中の &apos;enablezeromint=1&apos; を &apos;enablezeromint=0&apos; へ変えてください。</translation>
+        <source>To disable AutoMint delete set &apos;enablezeromint=1&apos; to &apos;enablezeromint=0&apos; in chronos.conf.</source>
+        <translation>自動変換を無効化するには、chronos.conf の中の &apos;enablezeromint=1&apos; を &apos;enablezeromint=0&apos; へ変えてください。</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint add &apos;enablezeromint=1&apos; in nodex.conf</source>
+To enable AutoMint add &apos;enablezeromint=1&apos; in chronos.conf</source>
         <translation>自動変換は現在無効です。
-自動変換を有効化して、nodex.conf の中の &apos;enablezeromint=1&apos; を追記してください</translation>
+自動変換を有効化して、chronos.conf の中の &apos;enablezeromint=1&apos; を追記してください</translation>
     </message>
 </context>
 <context>
@@ -2286,12 +2286,12 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in nodex.conf</source>
         <translation>支払いアドレスが間違えています。 %1</translation>
     </message>
     <message>
-        <source>Cannot start nodex: click-to-pay handler</source>
-        <translation>nodex: クリックトゥペイに失敗</translation>
+        <source>Cannot start chronos: click-to-pay handler</source>
+        <translation>chronos: クリックトゥペイに失敗</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Nodex address or malformed URI parameters.</source>
-        <translation>URIの解析に失敗しました。Nodexのアドレスが間違っているか、URIのパラメタに不備があります。</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Chronos address or malformed URI parameters.</source>
+        <translation>URIの解析に失敗しました。Chronosのアドレスが間違っているか、URIのパラメタに不備があります。</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2376,8 +2376,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in nodex.conf</source>
         <translation>枚数</translation>
     </message>
     <message>
-        <source>Enter a Nodex address (e.g. %1)</source>
-        <translation>Nodexアドレスを入力してください。 (例: %1)</translation>
+        <source>Enter a Chronos address (e.g. %1)</source>
+        <translation>Chronosアドレスを入力してください。 (例: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2420,8 +2420,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in nodex.conf</source>
         <translation></translation>
     </message>
     <message>
-        <source>Nodex Core</source>
-        <translation>Nodex コア</translation>
+        <source>Chronos Core</source>
+        <translation>Chronos コア</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
@@ -2440,8 +2440,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in nodex.conf</source>
         <translation>マスターノード設定ファイル(masternode.conf)の読み込みでエラーが発生しました %1</translation>
     </message>
     <message>
-        <source>Nodex Core didn&apos;t yet exit safely...</source>
-        <translation>Nodex コアは正常に停止していません...</translation>
+        <source>Chronos Core didn&apos;t yet exit safely...</source>
+        <translation>Chronos コアは正常に停止していません...</translation>
     </message>
 </context>
 <context>
@@ -2538,8 +2538,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in nodex.conf</source>
         <translation>ブロックチェーン</translation>
     </message>
     <message>
-        <source>Open the Nodex debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>データフォルダからNodexのデバッグログを開きます(時間がかかることがあります)。</translation>
+        <source>Open the Chronos debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>データフォルダからChronosのデバッグログを開きます(時間がかかることがあります)。</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2706,8 +2706,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in nodex.conf</source>
         <translation>Out:</translation>
     </message>
     <message>
-        <source>Welcome to the Nodex RPC console.</source>
-        <translation>Nodex RPC コンソールへようこそ！</translation>
+        <source>Welcome to the Chronos RPC console.</source>
+        <translation>Chronos RPC コンソールへようこそ！</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2809,11 +2809,11 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in nodex.conf</source>
         <translation>新しい受け取りアドレスに紐づく追加のラベル</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Nodex network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Chronos network.</source>
         <translation>支払いリクエストに紐づくメッセージで、リクエストを開いた際に表示されます。 注:支払い時に表示されるメッセージではありません。</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Nodex network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Chronos network.</source>
         <translation>支払いリクエストに紐づくメッセージで、リクエストを開いた際に表示されます。 &lt;br&gt;注:支払い時に表示されるメッセージではありません。</translation>
     </message>
     <message>
@@ -3046,8 +3046,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in nodex.conf</source>
         <translation>分割ごと枚数:</translation>
     </message>
     <message>
-        <source>0 DXD</source>
-        <translation>0 DXD</translation>
+        <source>0 CHN</source>
+        <translation>0 CHN</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3094,16 +3094,16 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in nodex.conf</source>
         <translation>確認時間:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uDXDs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uDXDs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uDXDs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>If the custom fee is set to 1000 uDXDs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uDXDs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uDXDs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uCHNs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uCHNs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uCHNs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>If the custom fee is set to 1000 uCHNs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uCHNs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uCHNs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uDXDs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uDXDs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uDXDs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>If the custom fee is set to 1000 uDXDs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uDXDs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uDXDs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uCHNs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uCHNs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uCHNs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>If the custom fee is set to 1000 uCHNs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uCHNs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uCHNs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Nodex transactions than the network can process.</source>
-        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Nodex transactions than the network can process.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Chronos transactions than the network can process.</source>
+        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Chronos transactions than the network can process.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3206,8 +3206,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in nodex.conf</source>
         <translation>匿名化資産</translation>
     </message>
     <message>
-        <source>Warning: Invalid Nodex address</source>
-        <translation>警告: Nodexアドレスが正しくありません。</translation>
+        <source>Warning: Invalid Chronos address</source>
+        <translation>警告: Chronosアドレスが正しくありません。</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3312,8 +3312,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in nodex.conf</source>
         <translation>コインは自動で選択されます</translation>
     </message>
     <message>
-        <source>Anonymized DXD</source>
-        <translation>匿名化されたDXD</translation>
+        <source>Anonymized CHN</source>
+        <translation>匿名化されたCHN</translation>
     </message>
     <message>
         <source>SwiftX</source>
@@ -3339,8 +3339,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in nodex.conf</source>
         <translation>支払い先&amp;:</translation>
     </message>
     <message>
-        <source>The Nodex address to send the payment to</source>
-        <translation>支払い先のNodex アドレス</translation>
+        <source>The Chronos address to send the payment to</source>
+        <translation>支払い先のChronos アドレス</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3379,8 +3379,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in nodex.conf</source>
         <translation>メッセージ:</translation>
     </message>
     <message>
-        <source>A message that was attached to the Nodex: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Nodex network.</source>
-        <translation>Nodex: URI に紐づくメッセージです。 注:支払い時に表示されるメッセージではありません。</translation>
+        <source>A message that was attached to the Chronos: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Chronos network.</source>
+        <translation>Chronos: URI に紐づくメッセージです。 注:支払い時に表示されるメッセージではありません。</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3406,8 +3406,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in nodex.conf</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Nodex Core is shutting down...</source>
-        <translation>Nodex コアは停止中です...</translation>
+        <source>Chronos Core is shutting down...</source>
+        <translation>Chronos コアは停止中です...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3429,8 +3429,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in nodex.conf</source>
         <translation>アドレスの所有を証明するためにメッセージを署名できます。フィッシング攻撃などを避けるために、よくわからないものには署名せず、完全に同意したものにのみ署名してください。</translation>
     </message>
     <message>
-        <source>The Nodex address to sign the message with</source>
-        <translation>メッセージを署名するNodexアドレス</translation>
+        <source>The Chronos address to sign the message with</source>
+        <translation>メッセージを署名するChronosアドレス</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3461,16 +3461,16 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in nodex.conf</source>
         <translation>現在のシグネチャをクリップボードへコピー</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Nodex address</source>
-        <translation>このNodexアドレスの所有の証明のためメッセージを署名する</translation>
+        <source>Sign the message to prove you own this Chronos address</source>
+        <translation>このChronosアドレスの所有の証明のためメッセージを署名する</translation>
     </message>
     <message>
-        <source>The Nodex address the message was signed with</source>
-        <translation>メッセージの署名に使われたNodex アドレス</translation>
+        <source>The Chronos address the message was signed with</source>
+        <translation>メッセージの署名に使われたChronos アドレス</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Nodex address</source>
-        <translation>特定のNodexアドレスにより署名されたメッセージを確認する</translation>
+        <source>Verify the message to ensure it was signed with the specified Chronos address</source>
+        <translation>特定のChronosアドレスにより署名されたメッセージを確認する</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3556,8 +3556,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in nodex.conf</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Nodex Core</source>
-        <translation>Nodex コア</translation>
+        <source>Chronos Core</source>
+        <translation>Chronos コア</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3572,8 +3572,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in nodex.conf</source>
         <translation>Dash コア開発者チーム</translation>
     </message>
     <message>
-        <source>The Nodex Core developers</source>
-        <translation>Nodex コア開発者チーム</translation>
+        <source>The Chronos Core developers</source>
+        <translation>Chronos コア開発者チーム</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3974,28 +3974,28 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in nodex.conf</source>
         <translation>枚数は残高から増減されます。</translation>
     </message>
     <message>
-        <source>Converted Dxd to zDxd</source>
-        <translation>DXDをzDXDへ変換</translation>
+        <source>Converted Chn to zChn</source>
+        <translation>CHNをzCHNへ変換</translation>
     </message>
     <message>
-        <source>Spent zDxd</source>
-        <translation>zDXDを送金</translation>
+        <source>Spent zChn</source>
+        <translation>zCHNを送金</translation>
     </message>
     <message>
-        <source>Received Dxd from zDxd</source>
-        <translation>zDXDによる受け取り</translation>
+        <source>Received Chn from zChn</source>
+        <translation>zCHNによる受け取り</translation>
     </message>
     <message>
-        <source>Minted Change as zDxd from zDxd Spend</source>
-        <translation>zDXDの送金のお釣りをzDXDに変換</translation>
+        <source>Minted Change as zChn from zChn Spend</source>
+        <translation>zCHNの送金のお釣りをzCHNに変換</translation>
     </message>
     <message>
-        <source>Converted zDxd to Dxd</source>
-        <translation>zDXDからDXDへ変換</translation>
+        <source>Converted zChn to Chn</source>
+        <translation>zCHNからCHNへ変換</translation>
     </message>
     <message>
-        <source>zDxd Accumulator</source>
-        <translation>zDXDアキュムレータ</translation>
+        <source>zChn Accumulator</source>
+        <translation>zCHNアキュムレータ</translation>
     </message>
 </context>
 <context>
@@ -4173,8 +4173,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in nodex.conf</source>
         <translation>から</translation>
     </message>
     <message>
-        <source>Received Dxd from zDxd</source>
-        <translation>zDXDからDXDへの受け取り</translation>
+        <source>Received Chn from zChn</source>
+        <translation>zCHNからCHNへの受け取り</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4185,8 +4185,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in nodex.conf</source>
         <translation>ゼロコインの送金</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zDxd</source>
-        <translation>ゼロコインの送金,お釣りをzDXDで受け取り</translation>
+        <source>Zerocoin Spend, Change in zChn</source>
+        <translation>ゼロコインの送金,お釣りをzCHNで受け取り</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
@@ -4214,12 +4214,12 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in nodex.conf</source>
         <translation>コインの送金</translation>
     </message>
     <message>
-        <source>SwiftTX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 DXD.</source>
-        <translation>SwiftTXはあまり高額の送金は対応してません。%1 DXDが上限です。</translation>
+        <source>SwiftTX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 CHN.</source>
+        <translation>SwiftTXはあまり高額の送金は対応してません。%1 CHNが上限です。</translation>
     </message>
     <message>
-        <source>SwiftX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 DXD.</source>
-        <translation>SwiftTXはあまり高額の送金は対応してません。%1 DXDが上限です。</translation>
+        <source>SwiftX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 CHN.</source>
+        <translation>SwiftTXはあまり高額の送金は対応してません。%1 CHNが上限です。</translation>
     </message>
 </context>
 <context>
@@ -4262,7 +4262,7 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in nodex.conf</source>
     </message>
 </context>
 <context>
-    <name>nodex-core</name>
+    <name>chronos-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = トランザクションメタデータを保持, 2 = メタデータを再ダウンロード)</translation>
@@ -4288,8 +4288,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in nodex.conf</source>
         <translation>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Nodex Core is probably already running.</source>
-        <translation>%s のデータフォルダをロックできません。 Nodex コアは既に実行されています。</translation>
+        <source>Cannot obtain a lock on data directory %s. Chronos Core is probably already running.</source>
+        <translation>%s のデータフォルダをロックできません。 Chronos コアは既に実行されています。</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4308,8 +4308,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in nodex.conf</source>
         <translation>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</translation>
     </message>
     <message>
-        <source>Disable all Nodex specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Disable all Nodex specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</translation>
+        <source>Disable all Chronos specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Disable all Chronos specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -4352,12 +4352,12 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in nodex.conf</source>
         <translation>Execute command when the best block changes (%s in cmd is replaced by block hash)</translation>
     </message>
     <message>
-        <source>Fees (in DXD/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Fees (in DXD/Kb) smaller than this are considered zero fee for relaying (default: %s)</translation>
+        <source>Fees (in CHN/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Fees (in CHN/Kb) smaller than this are considered zero fee for relaying (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in DXD/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Fees (in DXD/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</translation>
+        <source>Fees (in CHN/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Fees (in CHN/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4461,45 +4461,45 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in nodex.conf</source>
     </message>
     <message>
         <source>
-To use nodexd, or the -server option to nodex-qt, you must set an rpcpassword in the configuration file:
+To use chronosd, or the -server option to chronos-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=nodexrpc
+rpcuser=chronosrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Nodex Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Chronos Alert&quot; admin@foo.com
 </source>
         <translation>
-        nodexd, nodex-qt にserverオプションを付ける場合、以下の設定が必要になります。:
+        chronosd, chronos-qt にserverオプションを付ける場合、以下の設定が必要になります。:
         %s
-        nodex.confにRPCユーザー名,パスワードを入力してください。:
-        rpcuser=nodexrpc
+        chronos.confにRPCユーザー名,パスワードを入力してください。:
+        rpcuser=chronosrpc
         rpcpassword=%s
-        (覚える必要はなく、nodex.confに記載すれば大丈夫です。)
+        (覚える必要はなく、chronos.confに記載すれば大丈夫です。)
         ユーザーネームとパスワードは同じにしてはいけません。
-        nodex.confが存在しなければ作成します。
+        chronos.confが存在しなければ作成します。
         It is also recommended to set alertnotify so you are notified of problems;
-        for example: alertnotify=echo %%s | mail -s &quot;Nodex Alert&quot; admin@foo.com
+        for example: alertnotify=echo %%s | mail -s &quot;Chronos Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Nodex Core is probably already running.</source>
-        <translation>%s をbind出来ませんでした。Nodexコアは既に動作しているようです。</translation>
+        <source>Unable to bind to %s on this computer. Chronos Core is probably already running.</source>
+        <translation>%s をbind出来ませんでした。Chronosコアは既に動作しているようです。</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
         <translation>Unable to locate enough Obfuscation denominated funds for this transaction.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 DXD.</source>
-        <translation>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 DXD.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 CHN.</source>
+        <translation>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 CHN.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 DXD.</source>
-        <translation>Unable to locate enough funds for this transaction that are not equal 10000 DXD.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 CHN.</source>
+        <translation>Unable to locate enough funds for this transaction that are not equal 10000 CHN.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4514,8 +4514,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Nodex Alert&quot; admin@foo.co
         <translation>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Nodex Core will not work properly.</source>
-        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Nodex Core will not work properly.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Chronos Core will not work properly.</source>
+        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Chronos Core will not work properly.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4662,8 +4662,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Nodex Alert&quot; admin@foo.co
         <translation>Copyright (C) 2014-%i Dash コア開発者チーム</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Nodex Core Developers</source>
-        <translation>Copyright (C) 2015-%i Nodex コア開発者チーム</translation>
+        <source>Copyright (C) 2015-%i The Chronos Core Developers</source>
+        <translation>Copyright (C) 2015-%i Chronos コア開発者チーム</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -4734,8 +4734,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Nodex Alert&quot; admin@foo.co
         <translation>wallet.datの読み込みにエラー発生: ウォレットが破損しています</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Nodex Core</source>
-        <translation>Ewallet.datの読み込みにエラー発生: ウォレットデータの読み込みに新しいバージョンのNodex コアが必要です</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Chronos Core</source>
+        <translation>Ewallet.datの読み込みにエラー発生: ウォレットデータの読み込みに新しいバージョンのChronos コアが必要です</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4786,8 +4786,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Nodex Alert&quot; admin@foo.co
         <translation>ブロックの読み込みに失敗</translation>
     </message>
     <message>
-        <source>Fee (in DXD/kB) to add to transactions you send (default: %s)</source>
-        <translation>Fee (in DXD/kB) to add to transactions you send (default: %s)</translation>
+        <source>Fee (in CHN/kB) to add to transactions you send (default: %s)</source>
+        <translation>Fee (in CHN/kB) to add to transactions you send (default: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4846,8 +4846,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Nodex Alert&quot; admin@foo.co
         <translation>情報</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Nodex Core is shutting down.</source>
-        <translation>初期サニティチェックが失敗しました。Nodexコアは終了します。</translation>
+        <source>Initialization sanity check failed. Chronos Core is shutting down.</source>
+        <translation>初期サニティチェックが失敗しました。Chronosコアは終了します。</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4958,8 +4958,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Nodex Alert&quot; admin@foo.co
         <translation>Enable staking functionality (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Keep N DXD anonymized (default: %u)</source>
-        <translation>Keep N DXD anonymized (default: %u)</translation>
+        <source>Keep N CHN anonymized (default: %u)</source>
+        <translation>Keep N CHN anonymized (default: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
@@ -5466,8 +5466,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Nodex Alert&quot; admin@foo.co
         <translation>ウォレットはロックされています。</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Nodex Core to complete</source>
-        <translation>ウォレットは再書き込みが必要です。Nodex コアを再起動してください。</translation>
+        <source>Wallet needed to be rewritten: restart Chronos Core to complete</source>
+        <translation>ウォレットは再書き込みが必要です。Chronos コアを再起動してください。</translation>
     </message>
     <message>
         <source>Wallet options:</source>
@@ -5546,12 +5546,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Nodex Alert&quot; admin@foo.co
         <translation></translation>
     </message>
     <message>
-        <source>Disable all Nodex specific functionality (Masternodes, Obfuscation, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Nodexの全特徴を無効化する(マスターノード/匿名化/SwiftX/Budget) (0-1, デフォルト: %u)</translation>
+        <source>Disable all Chronos specific functionality (Masternodes, Obfuscation, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <translation>Chronosの全特徴を無効化する(マスターノード/匿名化/SwiftX/Budget) (0-1, デフォルト: %u)</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zDxd minting (0-1, default: %u)</source>
-        <translation>zDXDへの変換後自動でウォレットをバックアップする( 0-1, デフォルト: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zChn minting (0-1, default: %u)</source>
+        <translation>zCHNへの変換後自動でウォレットをバックアップする( 0-1, デフォルト: %u)</translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
@@ -5586,27 +5586,27 @@ for example: alertnotify=echo %%s | mail -s &quot;Nodex Alert&quot; admin@foo.co
         <translation></translation>
     </message>
     <message>
-        <source>To use nodexd, or the -server option to nodex-qt, you must set an rpcpassword in the configuration file:
+        <source>To use chronosd, or the -server option to chronos-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=nodexrpc
+rpcuser=chronosrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Nodex Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Chronos Alert&quot; admin@foo.com
 </source>
-        <translation>nodexd, nodex-qt -server を利用する場合rpcの設定が必要です。:
+        <translation>chronosd, chronos-qt -server を利用する場合rpcの設定が必要です。:
 %s
 ランダムなパスワードの利用を推奨します。
-rpcuser=nodexrpc
+rpcuser=chronosrpc
 rpcpassword=%s
 パスワードを覚える必要はありませんが、
 ユーザー名と同じパスワードは禁止されます。
 もしファイルが存在しない場合、自動的に生成されます。
 以下を追加することで、問題が発生したときにメールでアラートを出すこともできます。
-for example: alertnotify=echo %%s | mail -s &quot;Nodex Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Chronos Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -5622,8 +5622,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Nodex Alert&quot; admin@foo.co
         <translation>Copyright (C) 2015-%i PIVX コア開発者チーム</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The Nodex Core Developers</source>
-        <translation>Copyright (C) 2015-%i Nodex コア開発者チーム {2017-?}</translation>
+        <source>Copyright (C) 2017-%i The Chronos Core Developers</source>
+        <translation>Copyright (C) 2015-%i Chronos コア開発者チーム {2017-?}</translation>
     </message>
     <message>
         <source>Delete blockchain folders and resync from scratch</source>
@@ -5731,10 +5731,10 @@ for example: alertnotify=echo %%s | mail -s &quot;Nodex Alert&quot; admin@foo.co
     </message>
 </context>
 <context>
-    <name>zdxdcontroldialog</name>
+    <name>zchncontroldialog</name>
     <message>
-        <source>Select zDxd to Spend</source>
-        <translation>送金したいzDXDを選択</translation>
+        <source>Select zChn to Spend</source>
+        <translation>送金したいzCHNを選択</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -5752,24 +5752,24 @@ for example: alertnotify=echo %%s | mail -s &quot;Nodex Alert&quot; admin@foo.co
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>DXD which were anonymized via Zerocin Protocol</source>
-        <translation>ゼロコインプロトコルにより匿名化されるDXD</translation>
+        <source>CHN which were anonymized via Zerocin Protocol</source>
+        <translation>ゼロコインプロトコルにより匿名化されるCHN</translation>
     </message>
     <message>
-        <source>Zerocoin DXD (zDXD)</source>
-        <translation>ゼロコイン DXD (zDXD)</translation>
+        <source>Zerocoin CHN (zCHN)</source>
+        <translation>ゼロコイン CHN (zCHN)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
         <translation>ゼロコインの操作:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Nodex network after a connection is established, but this process has not completed yet.</source>
-        <translation>表示されている情報は古いものかもしれません。Nodexネットワークに接続後自動的に同期が行われますが、まだ同期は完了していません。</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Chronos network after a connection is established, but this process has not completed yet.</source>
+        <translation>表示されている情報は古いものかもしれません。Chronosネットワークに接続後自動的に同期が行われますが、まだ同期は完了していません。</translation>
     </message>
     <message>
-        <source>Enter an amount of Dxd to convert to zDxd</source>
-        <translation>zDXDへ変換したいDXDの枚数を入力</translation>
+        <source>Enter an amount of Chn to convert to zChn</source>
+        <translation>zCHNへ変換したいCHNの枚数を入力</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -5816,12 +5816,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Nodex Alert&quot; admin@foo.co
         <translation>ステータス・直前の変換アクションでのメッセージログ。</translation>
     </message>
     <message>
-        <source>zDxd Control</source>
-        <translation>zDXD コントロール</translation>
+        <source>zChn Control</source>
+        <translation>zCHN コントロール</translation>
     </message>
     <message>
-        <source>zDxd Selected:</source>
-        <translation>選択された zDXD:</translation>
+        <source>zChn Selected:</source>
+        <translation>選択された zCHN:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -5836,18 +5836,18 @@ for example: alertnotify=echo %%s | mail -s &quot;Nodex Alert&quot; admin@foo.co
         <translation>ゼロコインを送金</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zDXD for spending</source>
-        <translation>利用できるzDXD</translation>
+        <source>Available (mature and spendable) zCHN for spending</source>
+        <translation>利用できるzCHN</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>利用可能な残高:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zDXD for spending
+        <source>Available (mature and spendable) zCHN for spending
 
-zDXD are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>zDXDは20確認と同じdenominationでの3変換がされたのちに利用可能になります</translation>
+zCHN are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>zCHNは20確認と同じdenominationでの3変換がされたのちに利用可能になります</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -5866,8 +5866,8 @@ zDXD are mature when they have more than 20 confirmations AND more than 2 mints 
         <translation>支払い先:</translation>
     </message>
     <message>
-        <source>The Nodex address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>支払い先Nodexアドレスです。空欄の際は自身への送金になります。</translation>
+        <source>The Chronos address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>支払い先Chronosアドレスです。空欄の際は自身への送金になります。</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -5891,7 +5891,7 @@ zDXD are mature when they have more than 20 confirmations AND more than 2 mints 
     </message>
     <message>
         <source>Convert Change to Zerocoin (might cost additional fees)</source>
-        <translation>お釣りをzDXDへ変換(追加で手数料がかかります)</translation>
+        <translation>お釣りをzCHNへ変換(追加で手数料がかかります)</translation>
     </message>
     <message>
         <source>If checked, the wallet tries to minimize the returning change instead of minimizing the number of spent denominations.</source>
@@ -5910,8 +5910,8 @@ zDXD are mature when they have more than 20 confirmations AND more than 2 mints 
         <translation>利用できるゼロコイン残高の情報.</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zDXD</source>
-        <translation>未確認・未成熟なzDXDも含んだ全残高</translation>
+        <source>Total Balance including unconfirmed and immature zCHN</source>
+        <translation>未確認・未成熟なzCHNも含んだ全残高</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -5919,11 +5919,11 @@ zDXD are mature when they have more than 20 confirmations AND more than 2 mints 
     </message>
     <message>
         <source>Denominations with value 1:</source>
-        <translation>1 zDXD の塊(denomination):</translation>
+        <translation>1 zCHN の塊(denomination):</translation>
     </message>
     <message>
         <source>Denom. with value 1:</source>
-        <translation>1 zDXD のdenom.:</translation>
+        <translation>1 zCHN のdenom.:</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -5933,59 +5933,59 @@ Immature: confirmed, but less than 2 mints of the same denomination after it was
     </message>
     <message>
         <source>Denominations with value 5:</source>
-        <translation>5 zDXD の塊(denomination):</translation>
+        <translation>5 zCHN の塊(denomination):</translation>
     </message>
     <message>
         <source>Denom. with value 5:</source>
-        <translation>5 zDXD のdenom.:</translation>
+        <translation>5 zCHN のdenom.:</translation>
     </message>
     <message>
         <source>Denominations with value 10:</source>
-        <translation>10 zDXD の塊(denomination):</translation>
+        <translation>10 zCHN の塊(denomination):</translation>
     </message>
     <message>
         <source>Denom. with value 10:</source>
-        <translation>10 zDXD のdenom.:</translation>
+        <translation>10 zCHN のdenom.:</translation>
     </message>
     <message>
         <source>Denominations with value 50:</source>
-        <translation>50 zDXD の塊(denomination):</translation>
+        <translation>50 zCHN の塊(denomination):</translation>
     </message>
     <message>
         <source>Denom. with value 50:</source>
-        <translation>50 zDXD のdenom.:</translation>
+        <translation>50 zCHN のdenom.:</translation>
     </message>
     <message>
         <source>Denominations with value 100:</source>
-        <translation>100 zDXD の塊(denomination):</translation>
+        <translation>100 zCHN の塊(denomination):</translation>
     </message>
     <message>
         <source>Denom. with value 100:</source>
-        <translation>100 zDXD のdenom.:</translation>
+        <translation>100 zCHN のdenom.:</translation>
     </message>
     <message>
         <source>Denominations with value 500:</source>
-        <translation>500 zDXD の塊(denomination):</translation>
+        <translation>500 zCHN の塊(denomination):</translation>
     </message>
     <message>
         <source>Denom. with value 500:</source>
-        <translation>500 zDXD のdenom.:</translation>
+        <translation>500 zCHN のdenom.:</translation>
     </message>
     <message>
         <source>Denominations with value 1000:</source>
-        <translation>1000 zDXD の塊(denomination):</translation>
+        <translation>1000 zCHN の塊(denomination):</translation>
     </message>
     <message>
         <source>Denom. with value 1000:</source>
-        <translation>1000 zDXD のdenom.:</translation>
+        <translation>1000 zCHN のdenom.:</translation>
     </message>
     <message>
         <source>Denominations with value 5000:</source>
-        <translation>5000 zDXD の塊(denomination):</translation>
+        <translation>5000 zCHN の塊(denomination):</translation>
     </message>
     <message>
         <source>Denom. with value 5000:</source>
-        <translation>5000 zDXD のdenom.:</translation>
+        <translation>5000 zCHN のdenom.:</translation>
     </message>
     <message>
         <source>Priority:</source>
@@ -6131,8 +6131,8 @@ Please be patient after clicking import.</source>
         <translation>アドレス / 枚数:</translation>
     </message>
     <message>
-        <source>Add destinations to send DXD to</source>
-        <translation>DXDを送る宛先を追加</translation>
+        <source>Add destinations to send CHN to</source>
+        <translation>CHNを送る宛先を追加</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>

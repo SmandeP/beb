@@ -62,12 +62,12 @@
         <translation>Adreces de recepció</translation>
     </message>
     <message>
-        <source>These are your Nodex addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Aquestes són les teves adreces Nodex per fer enviar pagaments. Sempre comprova l'import i l'adreça de recepció abans d'enviar les monedes.</translation>
+        <source>These are your Chronos addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Aquestes són les teves adreces Chronos per fer enviar pagaments. Sempre comprova l'import i l'adreça de recepció abans d'enviar les monedes.</translation>
     </message>
     <message>
-        <source>These are your Nodex addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Aquestes són les teves adreces Nodex per rebre pagaments. Es recomana utilitzar noves adreces de recepció per cada transacció.</translation>
+        <source>These are your Chronos addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Aquestes són les teves adreces Chronos per rebre pagaments. Es recomana utilitzar noves adreces de recepció per cada transacció.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,16 +168,16 @@
         <translation>Confirma l'encriptació del moneder</translation>
     </message>
     <message>
-        <source>Nodex will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DXDs from being stolen by malware infecting your computer.</source>
-        <translation>Nodex es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus DXD de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
+        <source>Chronos will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CHNs from being stolen by malware infecting your computer.</source>
+        <translation>Chronos es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus CHN de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Estàs segur que vols encriptar el moneder?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DXD&lt;/b&gt;!</source>
-        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES DXDS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CHN&lt;/b&gt;!</source>
+        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES CHNS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -418,12 +418,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>Nodex Core</source>
-        <translation>Nodex Core</translation>
+        <source>Chronos Core</source>
+        <translation>Chronos Core</translation>
     </message>
     <message>
-        <source>Send coins to a Nodex address</source>
-        <translation>Envia monedes a una adreça Nodex</translation>
+        <source>Send coins to a Chronos address</source>
+        <translation>Envia monedes a una adreça Chronos</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -434,8 +434,8 @@
         <translation>&amp;Masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Nodex Core</source>
-        <translation>&amp;Sobre Nodex Core</translation>
+        <source>&amp;About Chronos Core</source>
+        <translation>&amp;Sobre Chronos Core</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -458,12 +458,12 @@
         <translation>Obre el fitxer de configuració del Masternode</translation>
     </message>
     <message>
-        <source>Nodex Core client</source>
-        <translation>Client Nodex core</translation>
+        <source>Chronos Core client</source>
+        <translation>Client Chronos core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Nodex network</source>
-        <translation><numerusform>%n connexió activa a la xarxa Nodex</numerusform><numerusform>%n connexions actives a la xarxa Nodex</numerusform></translation>
+        <source>%n active connection(s) to Chronos network</source>
+        <translation><numerusform>%n connexió activa a la xarxa Chronos</numerusform><numerusform>%n connexions actives a la xarxa Chronos</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -814,8 +814,8 @@
         <translation>Edita l'adreça d'enviament</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Nodex address.</source>
-        <translation>L'adreça introduïda "%1" no és una adreça Nodex vàlida.</translation>
+        <source>The entered address "%1" is not a valid Chronos address.</source>
+        <translation>L'adreça introduïda "%1" no és una adreça Chronos vàlida.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -860,16 +860,16 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>Nodex Core</source>
-        <translation>Nodex Core</translation>
+        <source>Chronos Core</source>
+        <translation>Chronos Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Nodex Core</source>
-        <translation>Sobre Nodex Core</translation>
+        <source>About Chronos Core</source>
+        <translation>Sobre Chronos Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -915,12 +915,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to Nodex Core.</source>
-        <translation>Benvingut a Nodex Core.</translation>
+        <source>Welcome to Chronos Core.</source>
+        <translation>Benvingut a Chronos Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Nodex Core will store its data.</source>
-        <translation>Al ser el primer cop que s'inicia el programa, pots escollir on es desaran les dades del Nodex Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where Chronos Core will store its data.</source>
+        <translation>Al ser el primer cop que s'inicia el programa, pots escollir on es desaran les dades del Chronos Core.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -931,8 +931,8 @@
         <translation>Usar una carpeta de dades personalitzada:</translation>
     </message>
     <message>
-        <source>Nodex Core</source>
-        <translation>Nodex Core</translation>
+        <source>Chronos Core</source>
+        <translation>Chronos Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1142,24 +1142,24 @@
         <translation>Si us plau, selecciona un nivell de privacitat.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 DXD</source>
-        <translation>Utilitza 2 masternodes diferents per mesclar fons de fins a 10000 DXD</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 CHN</source>
+        <translation>Utilitza 2 masternodes diferents per mesclar fons de fins a 10000 CHN</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 DXD</source>
-        <translation>Utilitza 8 masternodes diferents per mesclar fons de fins a 10000 DXD</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 CHN</source>
+        <translation>Utilitza 8 masternodes diferents per mesclar fons de fins a 10000 CHN</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Utilitza 16 masternodes diferents</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 DXD to anonymize 10000 DXD</source>
-        <translation>Aquesta opció és la més ràpida i té un cost d'uns ~0.025 DXD per anonimitzar 10000 DXD</translation>
+        <source>This option is the quickest and will cost about ~0.025 CHN to anonymize 10000 CHN</source>
+        <translation>Aquesta opció és la més ràpida i té un cost d'uns ~0.025 CHN per anonimitzar 10000 CHN</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 DXD to anonymize 10000 DXD</source>
-        <translation>Aquesta opció és moderadament ràpida i té un cost d'uns 0.05 DXD per anonimitzar 10000 DXD</translation>
+        <source>This option is moderately fast and will cost about 0.05 CHN to anonymize 10000 CHN</source>
+        <translation>Aquesta opció és moderadament ràpida i té un cost d'uns 0.05 CHN per anonimitzar 10000 CHN</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -1208,8 +1208,8 @@
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Nodex after logging in to the system.</source>
-        <translation>Inicia Nodex automàticament després d'identificar-te en el sistema.</translation>
+        <source>Automatically start Chronos after logging in to the system.</source>
+        <translation>Inicia Chronos automàticament després d'identificar-te en el sistema.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1271,12 +1271,12 @@
         <translation>Total:</translation>
     </message>
     <message>
-        <source>DXD:</source>
-        <translation>DXD:</translation>
+        <source>CHN:</source>
+        <translation>CHN:</translation>
     </message>
     <message>
-        <source>zDXD:</source>
-        <translation>zDXD:</translation>
+        <source>zCHN:</source>
+        <translation>zCHN:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -1304,20 +1304,20 @@
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>Zerocoin DXD (zDXD)</source>
-        <translation>Zerocoin DXD (zDXD)</translation>
+        <source>Zerocoin CHN (zCHN)</source>
+        <translation>Zerocoin CHN (zCHN)</translation>
     </message>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zDXD</source>
-        <translation>zDXD</translation>
+        <source>zCHN</source>
+        <translation>zCHN</translation>
     </message>
     <message>
-        <source>0.000 000 00 DXD</source>
-        <translation>0.000 000 00 DXD</translation>
+        <source>0.000 000 00 CHN</source>
+        <translation>0.000 000 00 CHN</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1332,8 +1332,8 @@
         <translation>Import:</translation>
     </message>
     <message>
-        <source>0 zDXD</source>
-        <translation>0 zDXD</translation>
+        <source>0 zCHN</source>
+        <translation>0 zCHN</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1719,8 +1719,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Nodex Core is shutting down...</source>
-        <translation>Nodex Core s'està tancant...</translation>
+        <source>Chronos Core is shutting down...</source>
+        <translation>Chronos Core s'està tancant...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1785,8 +1785,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Nodex Core</source>
-        <translation>Nodex Core</translation>
+        <source>Chronos Core</source>
+        <translation>Chronos Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1969,7 +1969,7 @@
     </message>
     </context>
 <context>
-    <name>ZDxdControlDialog</name>
+    <name>ZChnControlDialog</name>
     <message>
         <source>Quantity</source>
         <translation>Quantitat</translation>
@@ -1979,12 +1979,12 @@
         <translation>0</translation>
     </message>
     <message>
-        <source>zDxd</source>
-        <translation>zDxd</translation>
+        <source>zChn</source>
+        <translation>zChn</translation>
     </message>
     </context>
 <context>
-    <name>nodex-core</name>
+    <name>chronos-core</name>
     <message>
         <source>Can't mix while sync in progress.</source>
         <translation>No es pot mesclar mentre s'està sincronitzant.</translation>

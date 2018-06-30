@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between nodex-cli and nodexd)
- * of a given instance of the Nodex system.
+ * CBaseChainParams defines the base parameters (shared between chronos-cli and chronosd)
+ * of a given instance of the Chronos system.
  */
 class CBaseChainParams
 {

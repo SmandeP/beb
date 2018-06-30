@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both nodexd and nodex-qt, to make it harder for attackers to
+ * for both chronosd and chronos-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Nodex Core");
+const std::string CLIENT_NAME("Chronos Core");
 
 /**
  * Client version number

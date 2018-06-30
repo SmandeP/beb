@@ -1,8 +1,8 @@
 // Copyright (c) 2017 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef NODEX_ACCUMULATORMAP_H
-#define NODEX_ACCUMULATORMAP_H
+#ifndef CHRONOS_ACCUMULATORMAP_H
+#define CHRONOS_ACCUMULATORMAP_H
 
 #include "libzerocoin/Accumulator.h"
 #include "libzerocoin/Coin.h"
@@ -20,4 +20,4 @@ public:
     uint256 GetCheckpoint();
     void Reset();
 };
-#endif //NODEX_ACCUMULATORMAP_H
+#endif //CHRONOS_ACCUMULATORMAP_H

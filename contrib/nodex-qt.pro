@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/obfuscation-relay.h \
            src/obfuscation.h \
-           src/nodex-config.h \
+           src/chronos-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/nodex-config.h \
+           src/config/chronos-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -333,7 +333,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/nodex.moc \
+           src/qt/chronos.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -374,9 +374,9 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/obfuscation-relay.cpp \
            src/obfuscation.cpp \
-           src/nodex-cli.cpp \
-           src/nodex-tx.cpp \
-           src/nodex.cpp \
+           src/chronos-cli.cpp \
+           src/chronos-tx.cpp \
+           src/chronos.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -471,8 +471,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/obfuscationconfig.cpp \
-           src/qt/nodex.cpp \
-           src/qt/nodexstrings.cpp \
+           src/qt/chronos.cpp \
+           src/qt/chronosstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -550,7 +550,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_nodex.cpp \
+           src/test/test_chronos.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -641,21 +641,21 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/nodex.qrc src/qt/nodex_locale.qrc
+RESOURCES += src/qt/chronos.qrc src/qt/chronos_locale.qrc
 
-TRANSLATIONS += src/qt/locale/nodex_bg.ts \
-                src/qt/locale/nodex_de.ts \
-                src/qt/locale/nodex_en.ts \
-                src/qt/locale/nodex_es.ts \
-                src/qt/locale/nodex_fi.ts \
-                src/qt/locale/nodex_fr.ts \
-                src/qt/locale/nodex_it.ts \
-                src/qt/locale/nodex_ja.ts \
-                src/qt/locale/nodex_pl.ts \
-                src/qt/locale/nodex_pt.ts \
-                src/qt/locale/nodex_ru.ts \
-                src/qt/locale/nodex_sk.ts \
-                src/qt/locale/nodex_sv.ts \
-                src/qt/locale/nodex_vi.ts \
-                src/qt/locale/nodex_zh_CN.ts \
-                src/qt/locale/nodex_zh_TW.ts
+TRANSLATIONS += src/qt/locale/chronos_bg.ts \
+                src/qt/locale/chronos_de.ts \
+                src/qt/locale/chronos_en.ts \
+                src/qt/locale/chronos_es.ts \
+                src/qt/locale/chronos_fi.ts \
+                src/qt/locale/chronos_fr.ts \
+                src/qt/locale/chronos_it.ts \
+                src/qt/locale/chronos_ja.ts \
+                src/qt/locale/chronos_pl.ts \
+                src/qt/locale/chronos_pt.ts \
+                src/qt/locale/chronos_ru.ts \
+                src/qt/locale/chronos_sk.ts \
+                src/qt/locale/chronos_sv.ts \
+                src/qt/locale/chronos_vi.ts \
+                src/qt/locale/chronos_zh_CN.ts \
+                src/qt/locale/chronos_zh_TW.ts

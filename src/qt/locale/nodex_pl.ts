@@ -148,8 +148,8 @@
         <translation>Czy na pewno chcesz zakodować portfel?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DXD&lt;/b&gt;!</source>
-        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE DXD!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CHN&lt;/b&gt;!</source>
+        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE CHN!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -227,8 +227,8 @@
         <translation>Zakodowany klucz:</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Nodex address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres Nodex jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this Chronos address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres Chronos jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -518,16 +518,16 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>Nodex Core</source>
-        <translation>&amp;Rdzeń Nodex</translation>
+        <source>Chronos Core</source>
+        <translation>&amp;Rdzeń Chronos</translation>
     </message>
     <message>
-        <source>Send coins to a Nodex address</source>
-        <translation>Wyślij monety do adresu Nodex</translation>
+        <source>Send coins to a Chronos address</source>
+        <translation>Wyślij monety do adresu Chronos</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and nodex: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i nodex:URI)</translation>
+        <source>Request payments (generates QR codes and chronos: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i chronos:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -538,24 +538,24 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Nodex Core</source>
+        <source>&amp;About Chronos Core</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about Nodex Core</source>
+        <source>Show information about Chronos Core</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for Nodex</source>
-        <translation>Modyfikuj opcje konfiguracji Nodex</translation>
+        <source>Modify configuration options for Chronos</source>
+        <translation>Modyfikuj opcje konfiguracji Chronos</translation>
     </message>
     <message>
-        <source>Sign messages with your Nodex addresses to prove you own them</source>
-        <translation>Zatwierdź wiadomość z twoimi adresami Nodex, by udowodnić, że jesteś w ich posiadaniu</translation>
+        <source>Sign messages with your Chronos addresses to prove you own them</source>
+        <translation>Zatwierdź wiadomość z twoimi adresami Chronos, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Nodex addresses</source>
-        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu Nodex</translation>
+        <source>Verify messages to ensure they were signed with specified Chronos addresses</source>
+        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu Chronos</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -582,8 +582,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a Nodex: URI or payment request</source>
-        <translation>OtwórzDXDX: URI i żądanie zapłaty</translation>
+        <source>Open a Chronos: URI or payment request</source>
+        <translation>OtwórzCHNX: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -594,12 +594,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the Nodex Core help message to get a list with possible Nodex command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia Nodex, aby dostać listę możliwych opcji Nodex command-line</translation>
+        <source>Show the Chronos Core help message to get a list with possible Chronos command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia Chronos, aby dostać listę możliwych opcji Chronos command-line</translation>
     </message>
     <message>
-        <source>Nodex Core client</source>
-        <translation>Rdzeń Nodex klient</translation>
+        <source>Chronos Core client</source>
+        <translation>Rdzeń Chronos klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -912,8 +912,8 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Nodex Core</source>
-        <translation>&amp;Rdzeń Nodex</translation>
+        <source>Chronos Core</source>
+        <translation>&amp;Rdzeń Chronos</translation>
     </message>
     </context>
 <context>
@@ -927,8 +927,8 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>Nodex Core</source>
-        <translation>&amp;Rdzeń Nodex</translation>
+        <source>Chronos Core</source>
+        <translation>&amp;Rdzeń Chronos</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1188,12 +1188,12 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start Nodex after logging in to the system.</source>
-        <translation>Automatycznie uruchom Nodex po zalogowaniu do systemu</translation>
+        <source>Automatically start Chronos after logging in to the system.</source>
+        <translation>Automatycznie uruchom Chronos po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start Nodex on system login</source>
-        <translation>&amp;Uruchom Nodex podczas logowania do systemu</translation>
+        <source>&amp;Start Chronos on system login</source>
+        <translation>&amp;Uruchom Chronos podczas logowania do systemu</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1212,18 +1212,18 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Nodex.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie Nodex</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Chronos.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie Chronos</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/nodex-project/nodex-project-translations</source>
+https://www.transifex.com/chronos-project/chronos-project-translations</source>
         <translation>Brakuje języka bądź nieukończona pełnego tłumaczenia? Pomóż w tłumaczeniu tutaj:
-https://www.transifex.com/nodex-project/nodex-project-translations </translation>
+https://www.transifex.com/chronos-project/chronos-project-translations </translation>
     </message>
     <message>
-        <source>Connect to the Nodex network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią Nodex poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the Chronos network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią Chronos poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1461,8 +1461,8 @@ https://www.transifex.com/nodex-project/nodex-project-translations </translation
         <translation>Liczba</translation>
     </message>
     <message>
-        <source>Enter a Nodex address (e.g. %1)</source>
-        <translation>Wprowadź adres Nodex (np. %1)</translation>
+        <source>Enter a Chronos address (e.g. %1)</source>
+        <translation>Wprowadź adres Chronos (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1900,8 +1900,8 @@ https://www.transifex.com/nodex-project/nodex-project-translations </translation
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Nodex address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres Nodex jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this Chronos address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres Chronos jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1935,8 +1935,8 @@ https://www.transifex.com/nodex-project/nodex-project-translations </translation
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Nodex Core</source>
-        <translation>&amp;Rdzeń Nodex</translation>
+        <source>Chronos Core</source>
+        <translation>&amp;Rdzeń Chronos</translation>
     </message>
     </context>
 <context>
@@ -2027,14 +2027,14 @@ https://www.transifex.com/nodex-project/nodex-project-translations </translation
     </message>
     </context>
 <context>
-    <name>ZDxdControlDialog</name>
+    <name>ZChnControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     </context>
 <context>
-    <name>nodex-core</name>
+    <name>chronos-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

@@ -62,12 +62,12 @@
         <translation>Direcciones de recepción</translation>
     </message>
     <message>
-        <source>These are your Nodex addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son sus direcciones Nodex para realizar pagos. Verifique siempre la cantidad y la dirección de recepción antes de enviar monedas.</translation>
+        <source>These are your Chronos addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son sus direcciones Chronos para realizar pagos. Verifique siempre la cantidad y la dirección de recepción antes de enviar monedas.</translation>
     </message>
     <message>
-        <source>These are your Nodex addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estas son sus direcciones Nodex para recibir pagos. Es recomendable usar una nueva dirección de recepción para cada transacción.</translation>
+        <source>These are your Chronos addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estas son sus direcciones Chronos para recibir pagos. Es recomendable usar una nueva dirección de recepción para cada transacción.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Confirme el cifrado del monedero</translation>
     </message>
     <message>
-        <source>Nodex will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DXDs from being stolen by malware infecting your computer.</source>
-        <translation>Nodex se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus DXDs no sean robados mediante malware de su ordenador.</translation>
+        <source>Chronos will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CHNs from being stolen by malware infecting your computer.</source>
+        <translation>Chronos se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus CHNs no sean robados mediante malware de su ordenador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>¿Está seguro de que desea cifrar su monedero?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DXD&lt;/b&gt;!</source>
-        <translation>Atención: Si cifra su monedero y pierde su contraseña, perderá &lt;b&gt; TODOS SUS DXD&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CHN&lt;/b&gt;!</source>
+        <translation>Atención: Si cifra su monedero y pierde su contraseña, perderá &lt;b&gt; TODOS SUS CHN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>&amp;Cifrado BIP 38</translation>
     </message>
     <message>
-        <source>Enter a Nodex Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Introduzca la dirección Nodex que querría cifrar usando BIP 38. Introduzca una contraseña en el campo central. Haga clic en cifrar para generar la clave privada cifrada.</translation>
+        <source>Enter a Chronos Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Introduzca la dirección Chronos que querría cifrar usando BIP 38. Introduzca una contraseña en el campo central. Haga clic en cifrar para generar la clave privada cifrada.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Dirección:</translation>
     </message>
     <message>
-        <source>The Nodex address to sign the message with</source>
-        <translation>La dirección Nodex con la que desee firmar el mensaje</translation>
+        <source>The Chronos address to sign the message with</source>
+        <translation>La dirección Chronos con la que desee firmar el mensaje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Nodex address</source>
-        <translation>Firme el mensaje para demostrar que eres el propietario de esta dirección Nodex</translation>
+        <source>Sign the message to prove you own this Chronos address</source>
+        <translation>Firme el mensaje para demostrar que eres el propietario de esta dirección Chronos</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Introduzca la clave cifrada privada BIP 38. Introduzca la contraseña en el campo central. Haga clic en descifrar clave para generar la clave privada. Después de que la clave sea descifrada, pulsando en 'Importar dirección' añadirá esta clave privada al monedero.</translation>
     </message>
     <message>
-        <source>The Nodex address the message was signed with</source>
-        <translation>La dirección Nodex con la que se firmó el mensaje</translation>
+        <source>The Chronos address the message was signed with</source>
+        <translation>La dirección Chronos con la que se firmó el mensaje</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Nodex address</source>
-        <translation>Verifica el mensaje para asegurar que fue firmado con la dirección Nodex especificada</translation>
+        <source>Verify the message to ensure it was signed with the specified Chronos address</source>
+        <translation>Verifica el mensaje para asegurar que fue firmado con la dirección Chronos especificada</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -602,15 +602,15 @@
         <translation>Herramienta de pestañas</translation>
     </message>
     <message>
-        <source>Nodex Core</source>
-        <translation>Núcleo Nodex</translation>
+        <source>Chronos Core</source>
+        <translation>Núcleo Chronos</translation>
     </message>
     <message>
-        <source>Send coins to a Nodex address</source>
-        <translation>Enviar coins a una dirección Nodex</translation>
+        <source>Send coins to a Chronos address</source>
+        <translation>Enviar coins a una dirección Chronos</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and nodex: URIs)</source>
+        <source>Request payments (generates QR codes and chronos: URIs)</source>
         <translation>Solicitud de pago (genera un código QR y URIs)</translation>
     </message>
     <message>
@@ -618,8 +618,8 @@
         <translation>&amp;Privacidad</translation>
     </message>
     <message>
-        <source>Privacy Action for zDXD and Obfuscation</source>
-        <translation>Privacidad con zDXD y Ofuscación</translation>
+        <source>Privacy Action for zCHN and Obfuscation</source>
+        <translation>Privacidad con zCHN y Ofuscación</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -630,24 +630,24 @@
         <translation>Explorar nodos maestros</translation>
     </message>
     <message>
-        <source>&amp;About Nodex Core</source>
-        <translation>&amp;Sobre el núcleo de Nodex</translation>
+        <source>&amp;About Chronos Core</source>
+        <translation>&amp;Sobre el núcleo de Chronos</translation>
     </message>
     <message>
-        <source>Show information about Nodex Core</source>
-        <translation>Mostrar información sobre el núcleo de Nodex</translation>
+        <source>Show information about Chronos Core</source>
+        <translation>Mostrar información sobre el núcleo de Chronos</translation>
     </message>
     <message>
-        <source>Modify configuration options for Nodex</source>
-        <translation>Modificar las opciones de configuración de Nodex</translation>
+        <source>Modify configuration options for Chronos</source>
+        <translation>Modificar las opciones de configuración de Chronos</translation>
     </message>
     <message>
-        <source>Sign messages with your Nodex addresses to prove you own them</source>
-        <translation>Firmar mensajes con sus direcciones Nodex para demostrar que le pertenecen</translation>
+        <source>Sign messages with your Chronos addresses to prove you own them</source>
+        <translation>Firmar mensajes con sus direcciones Chronos para demostrar que le pertenecen</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Nodex addresses</source>
-        <translation>Verificar mensajes para asegurar que están firmados con la dirección Nodex especificada</translation>
+        <source>Verify messages to ensure they were signed with specified Chronos addresses</source>
+        <translation>Verificar mensajes para asegurar que están firmados con la dirección Chronos especificada</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -678,8 +678,8 @@
         <translation>Abrir Fichero de Configuración de Nodos Maestros</translation>
     </message>
     <message>
-        <source>Open a Nodex: URI or payment request</source>
-        <translation>Abrir un Nodex: URI o solicitud de pago</translation>
+        <source>Open a Chronos: URI or payment request</source>
+        <translation>Abrir un Chronos: URI o solicitud de pago</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -690,16 +690,16 @@
         <translation>Ventana del explorador de bloques</translation>
     </message>
     <message>
-        <source>Show the Nodex Core help message to get a list with possible Nodex command-line options</source>
-        <translation>Mostrar la ayuda de Nodex Core para obtener una lista de posibles opciones en línea de comandos</translation>
+        <source>Show the Chronos Core help message to get a list with possible Chronos command-line options</source>
+        <translation>Mostrar la ayuda de Chronos Core para obtener una lista de posibles opciones en línea de comandos</translation>
     </message>
     <message>
-        <source>Nodex Core client</source>
-        <translation>Cliente Nodex Core</translation>
+        <source>Chronos Core client</source>
+        <translation>Cliente Chronos Core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Nodex network</source>
-        <translation><numerusform>%n conexión(es) activa a la red Nodex</numerusform><numerusform>%n conexion(es) activas a la red Nodex</numerusform></translation>
+        <source>%n active connection(s) to Chronos network</source>
+        <translation><numerusform>%n conexión(es) activa a la red Chronos</numerusform><numerusform>%n conexion(es) activas a la red Chronos</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -853,8 +853,8 @@ MultiEnvío: %1</translation>
         <translation>EtiquetaDeTexto</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (nodex.conf).</source>
-        <translation>No se muestran todas las transacciones. Para ver todas las transacciones introduzca la línea "txindex=1" en el archivo de configuración (nodex.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (chronos.conf).</source>
+        <translation>No se muestran todas las transacciones. Para ver todas las transacciones introduzca la línea "txindex=1" en el archivo de configuración (chronos.conf).</translation>
     </message>
 </context>
 <context>
@@ -1142,8 +1142,8 @@ MultiEnvío: %1</translation>
         <translation>Editar dirección de envío</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Nodex address.</source>
-        <translation>La dirección introducida "%1" no es una dirección Nodex válida.</translation>
+        <source>The entered address "%1" is not a valid Chronos address.</source>
+        <translation>La dirección introducida "%1" no es una dirección Chronos válida.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1188,16 +1188,16 @@ MultiEnvío: %1</translation>
         <translation>versión</translation>
     </message>
     <message>
-        <source>Nodex Core</source>
-        <translation>Núcleo Nodex</translation>
+        <source>Chronos Core</source>
+        <translation>Núcleo Chronos</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Nodex Core</source>
-        <translation>Acerca de Nodex Core</translation>
+        <source>About Chronos Core</source>
+        <translation>Acerca de Chronos Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1243,16 +1243,16 @@ MultiEnvío: %1</translation>
         <translation>Bienvenido/a</translation>
     </message>
     <message>
-        <source>Welcome to Nodex Core.</source>
-        <translation>Bienvenido/a a Nodex Core.</translation>
+        <source>Welcome to Chronos Core.</source>
+        <translation>Bienvenido/a a Chronos Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Nodex Core will store its data.</source>
-        <translation>Al ser la primera vez que se inicia el programa, usted puede elegir dónde guardará Nodex Core sus datos.</translation>
+        <source>As this is the first time the program is launched, you can choose where Chronos Core will store its data.</source>
+        <translation>Al ser la primera vez que se inicia el programa, usted puede elegir dónde guardará Chronos Core sus datos.</translation>
     </message>
     <message>
-        <source>Nodex Core will download and store a copy of the Nodex block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Nodex Core descargará y guardará una copia de la cadena de bloques Nodex. Por lo menos %1GB de datos serán guardados en esta carpeta, y crecerá con el tiempo. El monedero también se guardará en esta carpeta.</translation>
+        <source>Chronos Core will download and store a copy of the Chronos block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Chronos Core descargará y guardará una copia de la cadena de bloques Chronos. Por lo menos %1GB de datos serán guardados en esta carpeta, y crecerá con el tiempo. El monedero también se guardará en esta carpeta.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1263,8 +1263,8 @@ MultiEnvío: %1</translation>
         <translation>Usar una carpeta de datos personalizada:</translation>
     </message>
     <message>
-        <source>Nodex Core</source>
-        <translation>Núcleo Nodex</translation>
+        <source>Chronos Core</source>
+        <translation>Núcleo Chronos</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1405,12 +1405,12 @@ MultiEnvío: %1</translation>
         <translation>Introduzca Dirección a la cual Enviar</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Nodex addresses after it matures.
-To Add: enter percentage to give and Nodex address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Chronos addresses after it matures.
+To Add: enter percentage to give and Chronos address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiEnvío le permite enviar automáticamente hasta el 100% de recompensa de participación o de nodo maestro a una lista de otras direcciones Nodex después de su maduración.
-Para Añadir: introduzca porcentaje a enviar y las direcciones Nodex a añadir al vector MultiEnvío.
+        <translation>MultiEnvío le permite enviar automáticamente hasta el 100% de recompensa de participación o de nodo maestro a una lista de otras direcciones Chronos después de su maduración.
+Para Añadir: introduzca porcentaje a enviar y las direcciones Chronos a añadir al vector MultiEnvío.
 Para Eliminar: Introduzca la dirección a eliminar y pulse la tecla delete.
 MultiEnvío no se activará a menos que haga usted click en Activar</translation>
     </message>
@@ -1548,48 +1548,48 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Por favor selecciones un nivel de privacidad.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 DXD</source>
-        <translation>Use 2 nodos maestros diferentes para mezclar los fondos hasta los 10000 DXD</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 CHN</source>
+        <translation>Use 2 nodos maestros diferentes para mezclar los fondos hasta los 10000 CHN</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 DXD</source>
-        <translation>Use 8 nodos maestros diferentes para mezclar fondos hasta los 10000 DXD</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 CHN</source>
+        <translation>Use 8 nodos maestros diferentes para mezclar fondos hasta los 10000 CHN</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Use 16 nodos maestros diferentes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 DXD to anonymize 10000 DXD</source>
-        <translation>Esta opción es la más rápida y costará alrededor de ~0.025 DXD para anonimizar 10000 DXD</translation>
+        <source>This option is the quickest and will cost about ~0.025 CHN to anonymize 10000 CHN</source>
+        <translation>Esta opción es la más rápida y costará alrededor de ~0.025 CHN para anonimizar 10000 CHN</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 DXD to anonymize 10000 DXD</source>
-        <translation>Esta opción es moderadamente rápida y costará cerca de 0.05 DXD para anonimizar 10000 DXD.</translation>
+        <source>This option is moderately fast and will cost about 0.05 CHN to anonymize 10000 CHN</source>
+        <translation>Esta opción es moderadamente rápida y costará cerca de 0.05 CHN para anonimizar 10000 CHN.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Esta es la opción más lenta pero más segura. Usar el máximo anonimato costará</translation>
     </message>
     <message>
-        <source>0.1 DXD per 10000 DXD you anonymize.</source>
-        <translation>0.1 DXD por 10000 DXD que anonimizas.</translation>
+        <source>0.1 CHN per 10000 CHN you anonymize.</source>
+        <translation>0.1 CHN por 10000 CHN que anonimizas.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Configuración de Ofuscación</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Nodex's configuration screen.</source>
-        <translation>La Ofuscación se configuró correctamente en modo básico (%1 y 2 rondas). Puedes cambiar esto en cualquier momento accediendo a la ventana de configuración de Nodex.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Chronos's configuration screen.</source>
+        <translation>La Ofuscación se configuró correctamente en modo básico (%1 y 2 rondas). Puedes cambiar esto en cualquier momento accediendo a la ventana de configuración de Chronos.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Nodex's configuration screen.</source>
-        <translation>La Ofuscación se activó correctamente en modo alto (%1 y 8 rondas). Usted puede cambiar esto en cualquier momento abriendo la ventana de configuración de Nodex.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Chronos's configuration screen.</source>
+        <translation>La Ofuscación se activó correctamente en modo alto (%1 y 8 rondas). Usted puede cambiar esto en cualquier momento abriendo la ventana de configuración de Chronos.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Nodex's configuration screen.</source>
-        <translation>La Ofuscación se activó correctamente en su grado máximo (%1 y 16 rondas). Usted puede cambiar ésto en cualquier momento en la ventana de configuración de Nodex.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Chronos's configuration screen.</source>
+        <translation>La Ofuscación se activó correctamente en su grado máximo (%1 y 16 rondas). Usted puede cambiar ésto en cualquier momento en la ventana de configuración de Chronos.</translation>
     </message>
 </context>
 <context>
@@ -1650,8 +1650,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Si deselecciona el gasto de cambio no confirmado, las entradas de una transacción&lt;br/&gt;no podrán ser usadas hasta que esa transacción tenga al menos una confirmación.&lt;br/&gt;Esto también afecta a cómo se calcula su balance actual.</translation>
     </message>
     <message>
-        <source>Automatically open the Nodex client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente el puerto del cliente Nodex en el enrutador. Ésto sólo funciona si su enrutador soporta UPnP y esta función está activada.</translation>
+        <source>Automatically open the Chronos client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente el puerto del cliente Chronos en el enrutador. Ésto sólo funciona si su enrutador soporta UPnP y esta función está activada.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1670,12 +1670,12 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Experto</translation>
     </message>
     <message>
-        <source>Automatically start Nodex after logging in to the system.</source>
-        <translation>Arrancar Nodex automáticamente después de identificarse en Windows.</translation>
+        <source>Automatically start Chronos after logging in to the system.</source>
+        <translation>Arrancar Chronos automáticamente después de identificarse en Windows.</translation>
     </message>
     <message>
-        <source>&amp;Start Nodex on system login</source>
-        <translation>&amp;Arrancar Nodex al inicio del sistema</translation>
+        <source>&amp;Start Chronos on system login</source>
+        <translation>&amp;Arrancar Chronos al inicio del sistema</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1702,38 +1702,38 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>&amp;Red</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Nodex.</source>
-        <translation>El idioma de interface de usuario puede seleccionarse aquí. Este ajuste tomará efecto después de reiniciar Nodex.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Chronos.</source>
+        <translation>El idioma de interface de usuario puede seleccionarse aquí. Este ajuste tomará efecto después de reiniciar Chronos.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/nodex-project/nodex-project-translations</source>
+https://www.transifex.com/chronos-project/chronos-project-translations</source>
         <translation>¿Falta su lenguaje o la traducción está incompleta? Contribuya con las traducciones aquí:
-https://www.transifex.com/nodex-project/nodex-project-translations</translation>
+https://www.transifex.com/chronos-project/chronos-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapear un puerto utilizando &amp;UPnP</translation>
     </message>
     <message>
-        <source>Percentage of incoming DXD which get automatically converted to zDXD via Zerocoin Protocol (min: 10%)</source>
-        <translation>Porcentaje de DXDs entrantes que serán automáticamente convertidos a zDXD a través del Protocolo Zerocoin (mín: 10%)</translation>
+        <source>Percentage of incoming CHN which get automatically converted to zCHN via Zerocoin Protocol (min: 10%)</source>
+        <translation>Porcentaje de CHNs entrantes que serán automáticamente convertidos a zCHN a través del Protocolo Zerocoin (mín: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zDXD</source>
-        <translation>Porcentaje de zDXD autogenerados</translation>
+        <source>Percentage of autominted zCHN</source>
+        <translation>Porcentaje de zCHN autogenerados</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough DXD for this denomination is available</source>
-        <translation>Retrasar la conversión automática a Zerocoin hasta que hayan suficientes DXD disponibles para este tamaño de billete</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough CHN for this denomination is available</source>
+        <translation>Retrasar la conversión automática a Zerocoin hasta que hayan suficientes CHN disponibles para este tamaño de billete</translation>
     </message>
     <message>
-        <source>Preferred Automint zDXD Denomination</source>
-        <translation>Tamaño de billete zDXD preferido en la creación automática de dinero</translation>
+        <source>Preferred Automint zCHN Denomination</source>
+        <translation>Tamaño de billete zCHN preferido en la creación automática de dinero</translation>
     </message>
     <message>
-        <source>Connect to the Nodex network through a SOCKS5 proxy.</source>
-        <translation>Conectar a la red Nodex mediante un proxy SOCKS5.</translation>
+        <source>Connect to the Chronos network through a SOCKS5 proxy.</source>
+        <translation>Conectar a la red Chronos mediante un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1863,8 +1863,8 @@ https://www.transifex.com/nodex-project/nodex-project-translations</translation>
         <translation>Formulario</translation>
     </message>
     <message>
-        <source>DXD Balances</source>
-        <translation>Balances DXD</translation>
+        <source>CHN Balances</source>
+        <translation>Balances CHN</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1891,8 +1891,8 @@ https://www.transifex.com/nodex-project/nodex-project-translations</translation>
         <translation>Recompensa de participación o de nodo maestro que aún no ha madurado</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Nodex network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Nodex después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Chronos network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Chronos después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1931,12 +1931,12 @@ https://www.transifex.com/nodex-project/nodex-project-translations</translation>
         <translation>Balances Combinados (incluyendo monedas inmaduras)</translation>
     </message>
     <message>
-        <source>DXD:</source>
-        <translation>DXD:</translation>
+        <source>CHN:</source>
+        <translation>CHN:</translation>
     </message>
     <message>
-        <source>zDXD:</source>
-        <translation>zDXD:</translation>
+        <source>zCHN:</source>
+        <translation>zCHN:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -1978,12 +1978,12 @@ https://www.transifex.com/nodex-project/nodex-project-translations</translation>
         <translation>Dirección de pago inválida %1</translation>
     </message>
     <message>
-        <source>Cannot start nodex: click-to-pay handler</source>
-        <translation>No se puede iniciar nodex: módulo click-to-pay</translation>
+        <source>Cannot start chronos: click-to-pay handler</source>
+        <translation>No se puede iniciar chronos: módulo click-to-pay</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Nodex address or malformed URI parameters.</source>
-        <translation>¡El identificador de la dirección no puede ser analizado! Esto puede ser causado por una dirección Nodex inválida o parámetros del identificador malformados.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Chronos address or malformed URI parameters.</source>
+        <translation>¡El identificador de la dirección no puede ser analizado! Esto puede ser causado por una dirección Chronos inválida o parámetros del identificador malformados.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2064,24 +2064,24 @@ https://www.transifex.com/nodex-project/nodex-project-translations</translation>
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>DXD which were anonymized via Zerocin Protocol</source>
-        <translation>DXD que fueron anonimizados mediante Protocolo Zerocoin</translation>
+        <source>CHN which were anonymized via Zerocin Protocol</source>
+        <translation>CHN que fueron anonimizados mediante Protocolo Zerocoin</translation>
     </message>
     <message>
-        <source>Zerocoin DXD (zDXD)</source>
-        <translation>Zerocoin DXD (zDXD)</translation>
+        <source>Zerocoin CHN (zCHN)</source>
+        <translation>Zerocoin CHN (zCHN)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
         <translation>Acciones Zerocoin:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Nodex network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Nodex después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Chronos network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Chronos después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
-        <source>Enter an amount of Dxd to convert to zDxd</source>
-        <translation>Introduzca la cantidad de Dxd que desea convertir a zDxd</translation>
+        <source>Enter an amount of Chn to convert to zChn</source>
+        <translation>Introduzca la cantidad de Chn que desea convertir a zChn</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2092,16 +2092,16 @@ https://www.transifex.com/nodex-project/nodex-project-translations</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zDXD</source>
-        <translation>zDXD</translation>
+        <source>zCHN</source>
+        <translation>zCHN</translation>
     </message>
     <message>
         <source>Available for Minting:</source>
         <translation>Disponible para Creación de moneda:</translation>
     </message>
     <message>
-        <source>0.000 000 00 DXD</source>
-        <translation>0.000 000 00 DXD</translation>
+        <source>0.000 000 00 CHN</source>
+        <translation>0.000 000 00 CHN</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2136,12 +2136,12 @@ https://www.transifex.com/nodex-project/nodex-project-translations</translation>
         <translation>Estado y/o Mensajes de la última Acción de Creación de moneda.</translation>
     </message>
     <message>
-        <source>zDxd Control</source>
-        <translation>Control zDxd</translation>
+        <source>zChn Control</source>
+        <translation>Control zChn</translation>
     </message>
     <message>
-        <source>zDxd Selected:</source>
-        <translation>zDxd Seleccionados:</translation>
+        <source>zChn Selected:</source>
+        <translation>zChn Seleccionados:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2160,8 +2160,8 @@ https://www.transifex.com/nodex-project/nodex-project-translations</translation>
         <translation>Balance disponible:</translation>
     </message>
     <message>
-        <source>0 zDXD</source>
-        <translation>0 zDXD</translation>
+        <source>0 zCHN</source>
+        <translation>0 zCHN</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2180,8 +2180,8 @@ https://www.transifex.com/nodex-project/nodex-project-translations</translation>
         <translation>Pagar &amp;A:</translation>
     </message>
     <message>
-        <source>The Nodex address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>La dirección Nodex a la que enviar el pago. Si se deja en blanco, crea un pago a usted mismo.</translation>
+        <source>The Chronos address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>La dirección Chronos a la que enviar el pago. Si se deja en blanco, crea un pago a usted mismo.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2380,8 +2380,8 @@ https://www.transifex.com/nodex-project/nodex-project-translations</translation>
         <translation>Copiar cantidad</translation>
     </message>
     <message>
-        <source>Zerocoin functionality is not enabled on the Nodex network yet.</source>
-        <translation>La funcionalidad Zerocoin todavía no está habilitada en la red Nodex.</translation>
+        <source>Zerocoin functionality is not enabled on the Chronos network yet.</source>
+        <translation>La funcionalidad Zerocoin todavía no está habilitada en la red Chronos.</translation>
     </message>
     <message>
         <source>Error: Your wallet is locked. Please enter the wallet passphrase first.</source>
@@ -2400,8 +2400,8 @@ https://www.transifex.com/nodex-project/nodex-project-translations</translation>
         <translation>Monedas creadas correctamente</translation>
     </message>
     <message>
-        <source> zDXD in </source>
-        <translation>zDXD en</translation>
+        <source> zCHN in </source>
+        <translation>zCHN en</translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2434,8 +2434,8 @@ Por favor espere...</translation>
         <translation>No se especificó drección 'Pagar A', por lo que asumimos un pago local</translation>
     </message>
     <message>
-        <source>Invalid Nodex Address</source>
-        <translation>Dirección Nodex Inválida</translation>
+        <source>Invalid Chronos Address</source>
+        <translation>Dirección Chronos Inválida</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2478,8 +2478,8 @@ Por favor tenga paciencia...</translation>
         <translation>Gastar Zerocoin falló con estado =</translation>
     </message>
     <message>
-        <source>zDxd Spend #: </source>
-        <translation>Gastar zDxd #:</translation>
+        <source>zChn Spend #: </source>
+        <translation>Gastar zChn #:</translation>
     </message>
     <message>
         <source>denomination: </source>
@@ -2502,8 +2502,8 @@ Por favor tenga paciencia...</translation>
         <translation>dirección:</translation>
     </message>
     <message>
-        <source>zDxd Mint</source>
-        <translation>Creación de zDxd</translation>
+        <source>zChn Mint</source>
+        <translation>Creación de zChn</translation>
     </message>
     <message>
         <source>Sending successful, return code: </source>
@@ -2525,8 +2525,8 @@ Por favor tenga paciencia...</translation>
         <translation>Cantidad</translation>
     </message>
     <message>
-        <source>Enter a Nodex address (e.g. %1)</source>
-        <translation>Introduzca una dirección Nodex (p.e. %1)</translation>
+        <source>Enter a Chronos address (e.g. %1)</source>
+        <translation>Introduzca una dirección Chronos (p.e. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2663,8 +2663,8 @@ Por favor tenga paciencia...</translation>
         <translation>Cadena de bloques</translation>
     </message>
     <message>
-        <source>Open the Nodex debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Abrir el fichero de depuración Nodex en el directorio actual de datos. Esto puede llevar unos segundos para ficheros de depuración grandes.</translation>
+        <source>Open the Chronos debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Abrir el fichero de depuración Chronos en el directorio actual de datos. Esto puede llevar unos segundos para ficheros de depuración grandes.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2831,8 +2831,8 @@ Por favor tenga paciencia...</translation>
         <translation>Fuera:</translation>
     </message>
     <message>
-        <source>Welcome to the Nodex RPC console.</source>
-        <translation>Bienvenido a la consola RPC de Nodex.</translation>
+        <source>Welcome to the Chronos RPC console.</source>
+        <translation>Bienvenido a la consola RPC de Chronos.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2902,12 +2902,12 @@ Por favor tenga paciencia...</translation>
         <translation>Una etiqueta opcional a asociar con la nueva dirección de recepción.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Nodex network.</source>
-        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. Nota: El mensaje no se envía junto al pago por la red Nodex.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Chronos network.</source>
+        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. Nota: El mensaje no se envía junto al pago por la red Chronos.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Nodex network.</source>
-        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. &lt;br&gt;Nota: El mensaje no se envía junto al pago por la red Nodex.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Chronos network.</source>
+        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. &lt;br&gt;Nota: El mensaje no se envía junto al pago por la red Chronos.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3131,8 +3131,8 @@ Por favor tenga paciencia...</translation>
         <translation>Tamaño de UTXO:</translation>
     </message>
     <message>
-        <source>0 DXD</source>
-        <translation>0 DXD</translation>
+        <source>0 CHN</source>
+        <translation>0 CHN</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3183,16 +3183,16 @@ Por favor tenga paciencia...</translation>
         <translation>Monedas seleccionadas automáticamente</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uDXDs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uDXDs in fee,&lt;br /&gt;while "at least" pays 1000 uDXDs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la comisión personalizada se fija en 1000 uDXDs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uDXDs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uDXDs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uCHNs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uCHNs in fee,&lt;br /&gt;while "at least" pays 1000 uCHNs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se fija en 1000 uCHNs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uCHNs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uCHNs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uDXDs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uDXDs in fee,&lt;br /&gt;while "total at least" pays 1000 uDXDs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la comisión personalizada se fija en 1000 uDXDs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uDXDs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uDXDs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uCHNs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uCHNs in fee,&lt;br /&gt;while "total at least" pays 1000 uCHNs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se fija en 1000 uCHNs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uCHNs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uCHNs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Nodex transactions than the network can process.</source>
-        <translation>Pagar sólo la comisión mínima está bien mientras haya menos volumen de transacciones que espacio en los bloques.&lt;br/&gt;Pero tenga en cuenta que esto podría acabar en una transacción que nunca se confirme si hay más demanda de transacciones Nodex de las que la red puede procesar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Chronos transactions than the network can process.</source>
+        <translation>Pagar sólo la comisión mínima está bien mientras haya menos volumen de transacciones que espacio en los bloques.&lt;br/&gt;Pero tenga en cuenta que esto podría acabar en una transacción que nunca se confirme si hay más demanda de transacciones Chronos de las que la red puede procesar.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3239,8 +3239,8 @@ Por favor tenga paciencia...</translation>
         <translation>Añadir Destinata&amp;rio</translation>
     </message>
     <message>
-        <source>Anonymized DXD</source>
-        <translation>DXD anonimizados</translation>
+        <source>Anonymized CHN</source>
+        <translation>CHN anonimizados</translation>
     </message>
     <message>
         <source>SwiftTX</source>
@@ -3299,8 +3299,8 @@ Por favor tenga paciencia...</translation>
         <translation>fondos anónimos</translation>
     </message>
     <message>
-        <source>Warning: Invalid Nodex address</source>
-        <translation>Advertencia: Direcciones Nodex inválidas</translation>
+        <source>Warning: Invalid Chronos address</source>
+        <translation>Advertencia: Direcciones Chronos inválidas</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3406,8 +3406,8 @@ Por favor tenga paciencia...</translation>
         <translation>Pagar &amp;A:</translation>
     </message>
     <message>
-        <source>The Nodex address to send the payment to</source>
-        <translation>La dirección Nodex a la cual enviar el pago</translation>
+        <source>The Chronos address to send the payment to</source>
+        <translation>La dirección Chronos a la cual enviar el pago</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3446,8 +3446,8 @@ Por favor tenga paciencia...</translation>
         <translation>Mensaje:</translation>
     </message>
     <message>
-        <source>A message that was attached to the Nodex: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Nodex network.</source>
-        <translation>Un mensaje adjunto al Nodex: En recurso web especificado será guardado junto a la transacción para su referencia. Nota: Este mensaje no se enviará por la red Nodex.</translation>
+        <source>A message that was attached to the Chronos: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Chronos network.</source>
+        <translation>Un mensaje adjunto al Chronos: En recurso web especificado será guardado junto a la transacción para su referencia. Nota: Este mensaje no se enviará por la red Chronos.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3473,8 +3473,8 @@ Por favor tenga paciencia...</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Nodex Core is shutting down...</source>
-        <translation>El programa Nodex se está cerrando...</translation>
+        <source>Chronos Core is shutting down...</source>
+        <translation>El programa Chronos se está cerrando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3496,8 +3496,8 @@ Por favor tenga paciencia...</translation>
         <translation>Usted puede firmar mensajes con su dirección para probar que son auténticos. Tenga cuidado con firmar algo corto o vago como "hola", pues los ataques de phising pueden engañarle para que firme su identidad para ellos. Sólo firme textos detallados con los que esté de acuerdo.</translation>
     </message>
     <message>
-        <source>The Nodex address to sign the message with</source>
-        <translation>La dirección Nodex con la que desee firmar el mensaje</translation>
+        <source>The Chronos address to sign the message with</source>
+        <translation>La dirección Chronos con la que desee firmar el mensaje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3528,16 +3528,16 @@ Por favor tenga paciencia...</translation>
         <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Nodex address</source>
-        <translation>Firme el mensaje para demostrar que eres el propietario de esta dirección Nodex</translation>
+        <source>Sign the message to prove you own this Chronos address</source>
+        <translation>Firme el mensaje para demostrar que eres el propietario de esta dirección Chronos</translation>
     </message>
     <message>
-        <source>The Nodex address the message was signed with</source>
-        <translation>La dirección Nodex con la que se firmó el mensaje</translation>
+        <source>The Chronos address the message was signed with</source>
+        <translation>La dirección Chronos con la que se firmó el mensaje</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Nodex address</source>
-        <translation>Verifica el mensaje para asegurar que fue firmado con la dirección Nodex especificada</translation>
+        <source>Verify the message to ensure it was signed with the specified Chronos address</source>
+        <translation>Verifica el mensaje para asegurar que fue firmado con la dirección Chronos especificada</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3623,8 +3623,8 @@ Por favor tenga paciencia...</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Nodex Core</source>
-        <translation>Núcleo Nodex</translation>
+        <source>Chronos Core</source>
+        <translation>Núcleo Chronos</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3639,8 +3639,8 @@ Por favor tenga paciencia...</translation>
         <translation>Los desarrolladores de Dash Core</translation>
     </message>
     <message>
-        <source>The Nodex Core developers</source>
-        <translation>Los desarrolladores de Nodex Core</translation>
+        <source>The Chronos Core developers</source>
+        <translation>Los desarrolladores de Chronos Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3959,32 +3959,32 @@ Por favor tenga paciencia...</translation>
         <translation>Ofuscado</translation>
     </message>
     <message>
-        <source>Converted Dxd to zDxd</source>
-        <translation>Dxd convertidos a zDxd</translation>
+        <source>Converted Chn to zChn</source>
+        <translation>Chn convertidos a zChn</translation>
     </message>
     <message>
-        <source>Spent zDxd</source>
-        <translation>zDxd Gastados</translation>
+        <source>Spent zChn</source>
+        <translation>zChn Gastados</translation>
     </message>
     <message>
-        <source>Received Dxd from zDxd</source>
-        <translation>Dxd recibidos desde zDxd</translation>
+        <source>Received Chn from zChn</source>
+        <translation>Chn recibidos desde zChn</translation>
     </message>
     <message>
-        <source>Minted Change as zDxd from zDxd Spend</source>
-        <translation>Cambio Creado en zDxd por un Gasto zDxd</translation>
+        <source>Minted Change as zChn from zChn Spend</source>
+        <translation>Cambio Creado en zChn por un Gasto zChn</translation>
     </message>
     <message>
-        <source>Converted zDxd to Dxd</source>
-        <translation>zDxd convertidos en Dxd</translation>
+        <source>Converted zChn to Chn</source>
+        <translation>zChn convertidos en Chn</translation>
     </message>
     <message>
         <source>watch-only</source>
         <translation>sólo-lectura</translation>
     </message>
     <message>
-        <source>zDxd Accumulator</source>
-        <translation>Acumulador zDxd</translation>
+        <source>zChn Accumulator</source>
+        <translation>Acumulador zChn</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -4094,8 +4094,8 @@ Por favor tenga paciencia...</translation>
         <translation>Recompensa de Nodo Maestro</translation>
     </message>
     <message>
-        <source>Received Dxd from zDxd</source>
-        <translation>Dxd recibidos desde zDxd</translation>
+        <source>Received Chn from zChn</source>
+        <translation>Chn recibidos desde zChn</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4106,8 +4106,8 @@ Por favor tenga paciencia...</translation>
         <translation>Gasto de Zerocoin</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zDxd</source>
-        <translation>Gasto de Zerocoin, Cambio en zDxd</translation>
+        <source>Zerocoin Spend, Change in zChn</source>
+        <translation>Gasto de Zerocoin, Cambio en zChn</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
@@ -4231,8 +4231,8 @@ Por favor tenga paciencia...</translation>
         <translation>Enviar Monedas</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 DXD.</source>
-        <translation>SwiftTX no soporta el envío de importes tan altos todavía. Las transacciones están actualmente limitadas a %1 DXD.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 CHN.</source>
+        <translation>SwiftTX no soporta el envío de importes tan altos todavía. Las transacciones están actualmente limitadas a %1 CHN.</translation>
     </message>
 </context>
 <context>
@@ -4275,10 +4275,10 @@ Por favor tenga paciencia...</translation>
     </message>
 </context>
 <context>
-    <name>ZDxdControlDialog</name>
+    <name>ZChnControlDialog</name>
     <message>
-        <source>Select zDxd to Spend</source>
-        <translation>Seleccione zDxd a Gastar</translation>
+        <source>Select zChn to Spend</source>
+        <translation>Seleccione zChn a Gastar</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4289,8 +4289,8 @@ Por favor tenga paciencia...</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zDxd</source>
-        <translation>zDxd</translation>
+        <source>zChn</source>
+        <translation>zChn</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4302,7 +4302,7 @@ Por favor tenga paciencia...</translation>
     </message>
 </context>
 <context>
-    <name>nodex-core</name>
+    <name>chronos-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1= mantener los metadatos tx p.e. dueño de la cuenta e información de la solicitud de pago, 2 = ignorar metadatos tx)</translation>
@@ -4332,8 +4332,8 @@ Por favor tenga paciencia...</translation>
         <translation>El punto de chequeo del acumulador que hemos calculado no coincide con lo guardado en el índice de bloques</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Nodex Core is probably already running.</source>
-        <translation>No se puede obtener un bloqueo sobre el directorio de datos %s. Nodex Core esta probablemente en ejecución.</translation>
+        <source>Cannot obtain a lock on data directory %s. Chronos Core is probably already running.</source>
+        <translation>No se puede obtener un bloqueo sobre el directorio de datos %s. Chronos Core esta probablemente en ejecución.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4352,8 +4352,8 @@ Por favor tenga paciencia...</translation>
         <translation>Borrar todas las transacciones del monedero y solo recuperar partes de la cadena de bloque a traves de -rescan al inicio.</translation>
     </message>
     <message>
-        <source>Disable all Nodex specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar toda la funcionalidad especifica Nodex (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, predeterminado: %u)</translation>
+        <source>Disable all Chronos specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar toda la funcionalidad especifica Chronos (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, predeterminado: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -4392,12 +4392,12 @@ Por favor tenga paciencia...</translation>
         <translation>Ejecutar comando cuando el mejor bloque cambie (%s en cmd es reemplazado por el block hash)</translation>
     </message>
     <message>
-        <source>Fees (in DXD/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Comisiones (en DXD/Kb) menores a esta son consideradas gratuitas para la propagación de la transacción (default: %s)</translation>
+        <source>Fees (in CHN/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Comisiones (en CHN/Kb) menores a esta son consideradas gratuitas para la propagación de la transacción (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in DXD/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Comisiones (en DXD/Kb) menores a esta son consideradas gratuitas para la creación de la transacción (default: %s)</translation>
+        <source>Fees (in CHN/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Comisiones (en CHN/Kb) menores a esta son consideradas gratuitas para la creación de la transacción (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4496,44 +4496,44 @@ Por favor tenga paciencia...</translation>
         <translation>Este producto incluye software desarrollado por el Proyecto OpenSSL para uso en OpenSSL Toolkit &lt;https://www.openssl.org/&gt; y software de cifrado escrito por Eric Young y software de UPnP escrito por Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use nodexd, or the -server option to nodex-qt, you must set an rpcpassword in the configuration file:
+        <source>To use chronosd, or the -server option to chronos-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=nodexrpc
+rpcuser=chronosrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Nodex Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Chronos Alert" admin@foo.com
 </source>
-        <translation>Para usar nodexd, o la opción -server de nodex-qt, debes definir un rpcpassword en el archivo de configuración:
+        <translation>Para usar chronosd, o la opción -server de chronos-qt, debes definir un rpcpassword en el archivo de configuración:
 %s
 Es recomendado que uses la siguiente contraseña aleatoria:
-rpcuser=nodex
+rpcuser=chronos
 rpcrpcpassword=%s
 (No necesitas recordar esta contraseña)
 El nombre de usuario y contraseña NO DEBEN ser los mismos.
 Si el archivo no existe, crearlo con permisos de solo lectura para el propietario.
 También es recomendado definir alertnotify de manera que seas notificado de problemas;
-por ejemplo: alertnotify=echo %%s | mail -s "Nodex Alert" admin@foo.com
+por ejemplo: alertnotify=echo %%s | mail -s "Chronos Alert" admin@foo.com
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Nodex Core is probably already running.</source>
-        <translation>Imposible conectar a %s en esta computadora. Es probable que Nodex Core ya este corriendo.</translation>
+        <source>Unable to bind to %s on this computer. Chronos Core is probably already running.</source>
+        <translation>Imposible conectar a %s en esta computadora. Es probable que Chronos Core ya este corriendo.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
         <translation>Imposible localizar suficientes fondos denominados de Ofuscación para esta transacción.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 DXD.</source>
-        <translation>Imposible localizar suficientes fondos no-denominados de Ofuscación para esta transacción que no es igual a 10000 DXD.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 CHN.</source>
+        <translation>Imposible localizar suficientes fondos no-denominados de Ofuscación para esta transacción que no es igual a 10000 CHN.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 DXD.</source>
-        <translation>Imposible localizar fondos suficientes para esta transacción que no es igual a 10000 DXD.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 CHN.</source>
+        <translation>Imposible localizar fondos suficientes para esta transacción que no es igual a 10000 CHN.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4548,8 +4548,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Nodex Alert" admin@foo.com
         <translation>Advertencia: -paytxfee esta muy alta! Esta es la comisión de transacción que pagarás si envías una transacción.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Nodex Core will not work properly.</source>
-        <translation>Advertencia: Por favor verifique que la fecha y hora de su computadora sean correctas! Si su reloj esta fuera de hora Nodex Core no funcionará adecuadamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Chronos Core will not work properly.</source>
+        <translation>Advertencia: Por favor verifique que la fecha y hora de su computadora sean correctas! Si su reloj esta fuera de hora Chronos Core no funcionará adecuadamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4704,8 +4704,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Nodex Alert" admin@foo.com
         <translation>Copyright (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Nodex Core Developers</source>
-        <translation>Copyright (C) 2015-%i The Nodex Core Developers</translation>
+        <source>Copyright (C) 2015-%i The Chronos Core Developers</source>
+        <translation>Copyright (C) 2015-%i The Chronos Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -4784,8 +4784,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Nodex Alert" admin@foo.com
         <translation>Error al cargar wallet.dat: Billetera dañada</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Nodex Core</source>
-        <translation>Error al cargar wallet.dat: La Billetera requiere una nueva versión del Núcleo Nodex</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Chronos Core</source>
+        <translation>Error al cargar wallet.dat: La Billetera requiere una nueva versión del Núcleo Chronos</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4836,8 +4836,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Nodex Alert" admin@foo.com
         <translation>Falló al leer el bloque</translation>
     </message>
     <message>
-        <source>Fee (in DXD/kB) to add to transactions you send (default: %s)</source>
-        <translation>Comisión (en DXD/kB) para agregar a la transacción que envías (predeterminado: %s)</translation>
+        <source>Fee (in CHN/kB) to add to transactions you send (default: %s)</source>
+        <translation>Comisión (en CHN/kB) para agregar a la transacción que envías (predeterminado: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4896,8 +4896,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Nodex Alert" admin@foo.com
         <translation>Información</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Nodex Core is shutting down.</source>
-        <translation>La prueba de salud de inicialización ha fallado. Nodex Core se cerrará.</translation>
+        <source>Initialization sanity check failed. Chronos Core is shutting down.</source>
+        <translation>La prueba de salud de inicialización ha fallado. Chronos Core se cerrará.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -5572,8 +5572,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Nodex Alert" admin@foo.com
         <translation>Monedero bloqueado.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Nodex Core to complete</source>
-        <translation>Monedero necesita ser reescrito: reinicie Nodex Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart Chronos Core to complete</source>
+        <translation>Monedero necesita ser reescrito: reinicie Chronos Core para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>

@@ -96,7 +96,7 @@ public:
 };
 
 /**
- * Nodex RPC command dispatcher.
+ * Chronos RPC command dispatcher.
  */
 class CRPCTable
 {

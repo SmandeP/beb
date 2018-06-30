@@ -115,8 +115,8 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>The Nodex address the message was signed with</source>
-        <translation>Nodex adresa s kojom je potpisana poruka</translation>
+        <source>The Chronos address the message was signed with</source>
+        <translation>Chronos adresa s kojom je potpisana poruka</translation>
     </message>
     <message>
         <source>Allowed: 0-9,a-z,A-Z,</source>
@@ -150,8 +150,8 @@
         <translation>Otvori konfiguracijsku datoteku</translation>
     </message>
     <message>
-        <source>Nodex Core</source>
-        <translation>Nodex Core</translation>
+        <source>Chronos Core</source>
+        <translation>Chronos Core</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -162,8 +162,8 @@
         <translation>&amp;BIP38 alat</translation>
     </message>
     <message>
-        <source>Nodex Core client</source>
-        <translation>Nodex Core klijent</translation>
+        <source>Chronos Core client</source>
+        <translation>Chronos Core klijent</translation>
     </message>
     <message>
         <source>Error</source>
@@ -256,15 +256,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Nodex Core</source>
-        <translation>Nodex Core</translation>
+        <source>Chronos Core</source>
+        <translation>Chronos Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Nodex Core</source>
-        <translation>Nodex Core</translation>
+        <source>Chronos Core</source>
+        <translation>Chronos Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -535,8 +535,8 @@
         <translation>ne</translation>
     </message>
     <message>
-        <source>0 DXD</source>
-        <translation>0 DXD</translation>
+        <source>0 CHN</source>
+        <translation>0 CHN</translation>
     </message>
     <message>
         <source>Confirmation time:</source>
@@ -597,8 +597,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Nodex Core is shutting down...</source>
-        <translation>Nodex Core se gasi...</translation>
+        <source>Chronos Core is shutting down...</source>
+        <translation>Chronos Core se gasi...</translation>
     </message>
     </context>
 <context>
@@ -620,8 +620,8 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>The Nodex address the message was signed with</source>
-        <translation>Nodex adresa s kojom je potpisana poruka</translation>
+        <source>The Chronos address the message was signed with</source>
+        <translation>Chronos adresa s kojom je potpisana poruka</translation>
     </message>
     <message>
         <source>Message signed.</source>
@@ -635,8 +635,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Nodex Core</source>
-        <translation>Nodex Core</translation>
+        <source>Chronos Core</source>
+        <translation>Chronos Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -783,14 +783,14 @@
     </message>
     </context>
 <context>
-    <name>ZDxdControlDialog</name>
+    <name>ZChnControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     </context>
 <context>
-    <name>nodex-core</name>
+    <name>chronos-core</name>
     <message>
         <source>Error</source>
         <translation>Greška</translation>

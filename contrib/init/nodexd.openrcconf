@@ -1,25 +1,25 @@
-# /etc/conf.d/nodexd: config file for /etc/init.d/nodexd
+# /etc/conf.d/chronosd: config file for /etc/init.d/chronosd
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/nodex/nodex.conf"
+#BITCOIND_CONFIGFILE="/etc/chronos/chronos.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/nodexd"
+#BITCOIND_PIDDIR="/var/run/chronosd"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/nodexd.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/chronosd.pid"
 
-# Where to write nodexd data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/nodexd"
+# Where to write chronosd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/chronosd"
 
-# User and group to own nodexd process
-#BITCOIND_USER="nodex"
-#BITCOIND_GROUP="nodex"
+# User and group to own chronosd process
+#BITCOIND_USER="chronos"
+#BITCOIND_GROUP="chronos"
 
-# Path to nodexd executable
-#BITCOIND_BIN="/usr/bin/nodexd"
+# Path to chronosd executable
+#BITCOIND_BIN="/usr/bin/chronosd"
 
-# Nice value to run nodexd under
+# Nice value to run chronosd under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)
